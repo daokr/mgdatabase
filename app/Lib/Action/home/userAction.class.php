@@ -1,5 +1,8 @@
 <?php
-// 本类由系统自动生成，仅供测试用途
+/*
+ * IKPHP爱客网 安装程序 @copyright (c) 2012-3000 IKPHP All Rights Reserved @author 小麦
+* @Email:160780470@qq.com
+*/
 class userAction extends userbaseAction {
 	public function _initialize() {
 		parent::_initialize ();
@@ -59,7 +62,7 @@ class userAction extends userbaseAction {
 				'id' => $this->visitor->info ['userid'] 
 		) );
 		if (IS_POST) {
-			$email = $this->_post ( 'email', 'trim' );
+			$email = $this->_post ( 'username', 'trim' );
 			$password = $this->_post ( 'password', 'trim' );
 			if (empty ( $email )) {
 				$this->error ( L ( 'email_not_null' ) );

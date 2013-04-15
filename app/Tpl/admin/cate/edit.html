@@ -1,0 +1,30 @@
+<include file="public:header"/>
+<DIV class=area>
+<include file="public:left"/>
+<DIV class=sub-col-6>
+<DIV class=mod>
+      <br><p><SPAN 
+  class="h7">添加分类</SPAN></p>
+  	<form action="{:U('cate/edit')}" method="post" target="_self">
+      <TABLE style="FONT-SIZE: 14px" cellSpacing=0 cellPadding=0 border=0>
+        <TBODY> 
+        <TR> 
+          <TD class=col1 align=right>分类名称：</TD>
+          <TD class=col2> </TD>
+          <TD class=col34 colSpan=2> 
+            <input type="text" class="input grayInput" name="catename" value="{$strData[catename]}">
+              <input type="hidden" class="input grayInput" name="cateid" value="{$strData[cateid]}">
+          </TD>
+           <TD class=col2> </TD>
+          <TD class=col5 id=usernameTips> 
+            <input class=regbut1 id=submitButton style="BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none" type=submit value=保存 name="submit">
+          </TD>
+        </TR>
+        </TBODY> 
+      </TABLE>
+      </form>
+
+
+    </DIV>
+</DIV>
+<include file="public:footer"/>

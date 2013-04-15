@@ -17,7 +17,7 @@
     <table width="100%" border="0" cellspacing="0" cellpadding="0">
       <tr>
         
-      <td width="210"><a  href="http://"><img width="200" height="50" alt="亚稳材料数据库" src="__STATIC__/admin/img/logo.jpg" border="0"></a></td>
+      <td width="210"><a  href="http://www.mgdatabase.com"><img width="200" height="50" alt="亚稳材料数据库" src="__STATIC__/admin/img/logo.jpg" border="0"></a></td>
       <td width="1310" valign="bottom"><SPAN class="h7">管理平台</SPAN></td>
          <?php if($_SESSION['admin']): ?><td width="169" valign="bottom"><a href="<?php echo U('index/logout');?>" class="h7">【安全退出】</a></td><?php endif; ?>
       </tr>

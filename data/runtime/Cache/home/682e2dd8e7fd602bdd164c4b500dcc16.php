@@ -173,7 +173,7 @@ addLoadEvent(iFocusChange);
 		</div>
         <?php if(empty($visitor)): ?><div class="rightCon">
               <form action="<?php echo U('user/login');?>" method="post">  
-                <div class="form-ipt"><label class="label" for="login_username">Email：</label> <input id="login_username" class="form-ipt-user ui-ipt-enter" name="email" autocomplete="off" data-state="disable" type="text"></div>
+                <div class="form-ipt"><label class="label" for="login_username">账号：</label> <input id="login_username" class="form-ipt-user ui-ipt-enter" name="username" autocomplete="off" data-state="disable" type="text"></div>
                 <div class="form-ipt"><label class="label" for="login_password">密码：</label> <input id="login_password" class="form-ipt-pwd ui-ipt-enter" name="password" data-state="disable" type="password"></div>
                 <input value=" " class="log" data-state="disable" type="submit" />
 				<a href="<?php echo U('user/register');?>" class="ntes-nav-passport-login"  rel="nofollow">注册</a> | <a href="http://" class="ntes-nav-passport-login" >找回密码</a> | <a target="_self" href="http://www.mgdatabase.com " onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.mgdatabase.com');" title="把设为首页" class="ntes-nav-passport-login" >设为首页</a> | <a href="http://" class="ntes-nav-passport-login" >帮助</a>
@@ -307,13 +307,13 @@ class=cLGray>|</SPAN><A href="sy.htm">metallic element(s)1</A></DIV>
   <DIV class=sub-col-6> 
   <table width="240" border="0" cellspacing="0" cellpadding="0">
   <tr>
-        <td><a href="wytj.htm" target="_blank"><img src="__STATIC__/public/images/tjsysj.jpg" width="240" height="34" border="0"></a></td>
+        <td><a href="<?php echo U('exp/add');?>" target="_blank"><img src="__STATIC__/public/images/tjsysj.jpg" width="240" height="34" border="0"></a></td>
   </tr>
   <tr>
-        <td><a href="wxtj.htm" target="_blank"><img src="__STATIC__/public/images/tjwxzl.jpg" width="240" height="34" border="0"></a></td>
+        <td><a href="<?php echo U('doc/add');?>" target="_blank"><img src="__STATIC__/public/images/tjwxzl.jpg" width="240" height="34" border="0"></a></td>
   </tr>
   <tr>
-        <td><a href="qztj.htm" target="_blank"><img src="__STATIC__/public/images/tjqzxx.jpg" width="240" height="34" border="0"></a></td>
+        <td><a href="<?php echo U('qa/add');?>" target="_blank"><img src="__STATIC__/public/images/tjqzxx.jpg" width="240" height="34" border="0"></a></td>
   </tr>
 </table>
   </div>
@@ -330,8 +330,7 @@ href="#">更多</A></SPAN></DIV>
 <H3 class=main-title><A 
 href="#">metallic element(s)</A></H3>
           <a 
-href="http://"><img 
-title="塑化剂白酒"到底有何害处？ alt="塑化剂白酒"到底有何害处？ src="__STATIC__/public/images/dengtu.jpg" 
+href="http://"><img src="__STATIC__/public/images/dengtu.jpg" 
 width=100 height=70 border="0"></a> 
           <P>具有金属通性的元素。金属元素种类高达八十余种</P>
         </DIV>

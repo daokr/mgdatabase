@@ -7,7 +7,7 @@
         <if condition="empty($visitor)">
         <div class="rightCon">
               <form action="{:U('user/login')}" method="post">  
-                <div class="form-ipt"><label class="label" for="login_username">Email：</label> <input id="login_username" class="form-ipt-user ui-ipt-enter" name="email" autocomplete="off" data-state="disable" type="text"></div>
+                <div class="form-ipt"><label class="label" for="login_username">账号：</label> <input id="login_username" class="form-ipt-user ui-ipt-enter" name="username" autocomplete="off" data-state="disable" type="text"></div>
                 <div class="form-ipt"><label class="label" for="login_password">密码：</label> <input id="login_password" class="form-ipt-pwd ui-ipt-enter" name="password" data-state="disable" type="password"></div>
                 <input value=" " class="log" data-state="disable" type="submit" />
 				<a href="{:U('user/register')}" class="ntes-nav-passport-login"  rel="nofollow">注册</a> | <a href="http://" class="ntes-nav-passport-login" >找回密码</a> | <a target="_self" href="http://www.mgdatabase.com " onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.mgdatabase.com');" title="把设为首页" class="ntes-nav-passport-login" >设为首页</a> | <a href="http://" class="ntes-nav-passport-login" >帮助</a>

@@ -30,8 +30,8 @@
 <DIV class=area>
 <DIV class=area-main>
 	<DIV class="title-bar1">
-	<p><A href="#" class="wen">基础设置</A></p>
-	<p><A href="flgl.htm">分类管理</A></p>
+	<p><A href="<?php echo U('setting/index');?>" class="wen">基础设置</A></p>
+	<p><a href="<?php echo U('cate/index');?>">分类管理</a></p>
 	<p><A href="flxm.htm">分类项目</A></p>
 	<p><A href="sygl.htm">实验管理</A></p>
 	<p><A href="sjgl.htm">实验数据</A></p>
@@ -40,10 +40,6 @@
 	<p><A href="xwgl.htm">新闻管理</A></p>
 	<p><A href="qzgl.htm">求助管理</A></p>
 	<p><A href="zhgl.htm">帐号管理</A></p>
-	<p><A href="gggl.htm">公告管理</A></p>
-	<p><A href="hygl.htm">会员管理</A></p>
-	<p><A href="pbgg.htm">屏蔽广告</A></p>
-	<p><A href=".htm">充值管理</A></p>
 	</DIV>
 
 </div>

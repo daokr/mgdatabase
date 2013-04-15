@@ -1,0 +1,54 @@
+<include file="public:header"/>
+<DIV class=area>
+<include file="public:left"/>
+<DIV class=sub-col-6>
+<DIV class=mod>
+      <p>&nbsp;</p>
+      <form action="{:U('cate/index')}" method="post" target="_self">   
+      <TABLE style="FONT-SIZE: 14px" cellSpacing=0 cellPadding=0 border=0>
+        <TBODY> 
+        <TR> 
+          <TD class=col1 align=right>选择分类：</TD>
+          <TD class=col2> </TD>
+          <TD class=col4 colSpan=2>
+
+           	
+            <select name="cateid">
+              <foreach name="cate" item="item">
+              <option value="{$item[cateid]}">{$item[catename]}</option>
+              </foreach>
+            </select>
+			
+          </TD>
+          <TD > 
+            <input type="submit" name="Submit" value="查看">
+          </TD>
+        </TR>
+        </TBODY> 
+      </TABLE>
+      </form>
+      <p>&nbsp;</p>
+  <p><SPAN  class="h7">项目管理　　</SPAN><SPAN class="tjzy"><a href="{:U('item/add')}" target="_self">+添加项目</a></SPAN></p>
+      <p>&nbsp;</p>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" class=biaoge>
+        <tr> 
+          <td class=biaoge1><a href="#">全选</a>　<a href="#">删除</a></td>
+          <td  class=biaoge2>名称</td>
+          <td  class=biaoge2>所属分类</td>
+          <td  class=biaoge4>操作</td>
+        </tr>
+        <foreach name="list" item="item">
+        <tr> 
+          <td class=biaoge1> 
+            <input type="checkbox" value="{$item[itemid]}" name="itemid">
+          </td>
+          <td  class=biaoge2>{$item[itemname]}
+          </td>
+          <td  class=biaoge2>{$item[catename]}</td>
+          <td  class=biaoge4><a href="{:U('item/edit',array('itemid'=>$item[itemid]))}" target="_self">修改</a>　<a href="{:U('item/delete',array('itemid'=>$item[itemid]))}" target="_self" onClick="return confirm('真的要删除吗？删除不可恢复')">删除</a></td>
+        </tr>
+        </foreach>
+      </table>
+    </DIV>
+</DIV>
+<include file="public:footer"/>

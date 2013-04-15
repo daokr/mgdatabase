@@ -1,0 +1,49 @@
+<include file="public:header"/>
+<DIV class=area>
+<include file="public:left"/>
+<DIV class=sub-col-6>
+<DIV class=mod>
+      <br><p><SPAN 
+  class="h7">添加分类</SPAN></p>
+<form action="{:U('item/edit',array('itemid'=>$strData[itemid]))}" method="post" target="_self">
+      <TABLE style="FONT-SIZE: 14px" cellSpacing=0 cellPadding=0 border=0>
+        <TBODY> 
+        <TR> 
+          <TD class=col1 align=right>名称：</TD>
+          <TD class=col34> 
+            <input type="text" class="input grayInput" name="itemname" value="{$strData[itemname]}">
+            </TD>
+        </TR>
+
+        <TR>
+          <TD class=col1 align=right>所属分类：</TD>
+          <TD class=col34>
+             <select name="cateid" >
+              <foreach name="cate" item="item">
+              <if condition="$item[cateid] eq $strData[cateid]">
+             	 <option value="{$item[cateid]}" selected>{$item[catename]}</option>
+              <else/>
+                 <option value="{$item[cateid]}" >{$item[catename]}</option>
+              </if>
+              </foreach>
+            </select>
+          </TD>
+        </TR>
+       <TR>
+          <TD class=col1 align=right>显示顺序：</TD>
+          <TD class=col34><input type="text" class="input grayInput" name="order" value="{$strData[orderid]}"></TD>
+        </TR>
+        <TR>
+          <TD class=col1 align=right>&nbsp;</TD>
+          <TD class=col34><span class="col5">
+            <input class=regbut1 id=submitButton style="BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none" type=submit value=确定 name="submit">
+            </span></TD>
+        </TR>
+        </TBODY> 
+      </TABLE>
+      </form>
+
+
+    </DIV>
+</DIV>
+<include file="public:footer"/>

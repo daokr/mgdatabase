@@ -75,7 +75,7 @@ class default_passport
      * 登陆验证
      */
     public function auth($email, $password) {
-    	$uid = M('user')->where(array('email'=>$email, 'password'=>md5($password)))->getField('userid');
+    	$uid = M('user')->where(array('username'=>$email, 'password'=>md5($password)))->getField('userid');
     	if ($uid) {
     		return $uid;
     	} else {

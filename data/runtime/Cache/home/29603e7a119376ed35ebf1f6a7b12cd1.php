@@ -63,55 +63,101 @@
 	</div>
 
 <DIV class=area>
-<!--资料-->
-  	<DIV class=area-main2>
-	<DIV class="title-bar1"><SPAN 
-  class="h7"><?php echo ($user[username]); ?>个人中心</SPAN></DIV>
-	
-<DIV class=content>
-      <TABLE style="FONT-SIZE: 14px" cellSpacing=0 cellPadding=0 border=0>
-        <TBODY> 
-        <TR> 
-          <TD class=col1 align=right>添加数据：</TD>
-          <TD class=col2> </TD>
-          <TD class=col34 colSpan=2> <a href="tsy.htm" target="_blank">2</a>条</TD>
-        </TR>
-        <TR> 
-          <TD class=col1>发表评论：</TD>
-          <TD class=col2> </TD>
-          <TD class=col34 colSpan=2> <a href="tpl.htm" target="_blank">1</a>条 
-          </TD>
-        </TR>
-        <TR>
-          <TD class=col1>添加文献：</TD>
-          <TD class=col2></TD>
-          <td class=col34 style="FONT-SIZE: 12px" colspan=2><a href="twx.htm" target="_blank">2</a>条</td>
-        </TR>
-        <TR> 
-          <TD class=col1>添加求助：</TD>
-          <TD class=col2></TD>
-          <td class=col34 style="FONT-SIZE: 12px" colspan=2><a href="tqz.htm" target="_blank">2</a>条</td>
-        </TR>
-        <TR> 
-          <TD class=col1>现居住地：</TD>
-          <TD class=col2> </TD>
-          <td class=col34 style="FONT-SIZE: 12px" colspan=2>北京 </td>
-        </TR>
-        <TR> 
-          <TD class=col1>&nbsp;</TD>
-          <TD class=col2>&nbsp;</TD>
-          <TD class=col34 style="FONT-SIZE: 12px" colSpan=2>&nbsp; </TD>
-        </TR>
-        <TR> 
-          <TD class=col1>&nbsp;</TD>
-          <TD class=col2>&nbsp;</TD>
-          <TD class=col34 colSpan=2>&nbsp; </TD>
-        </TR>
-        </TBODY> 
-      </TABLE>
-  </DIV>
+	<DIV class=area-main>
+	<DIV >您的位置：<a href="http://www.mgdatabase.com/">首页</a> >>> 添加实验数据</DIV>
+	<br>
+  <DIV class=item-top> 
+		  
+        
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" class=biaoge7>
+        <tr> 
+          <td class=biaoge12>实验品名称：</td>
+          <td  class=biaoge13> 
+            <input id="demo2" name="demo2" type="text" size="30">
+            <font color="#FF0000">（必填项） </font></td>
+        </tr>
+        <tr> 
+          <td class=biaoge12>所属分类：</td>
+          <td  class=biaoge13> 
+            <select name="select" id="demo2">
+              <option>分类1</option>
+              <option>分类2</option>
+            </select>
+            <font color="#FF0000">（必选项） </font></td>
+        </tr>
+        <tr> 
+          <td class=biaoge12>是否原创：</td>
+          <td  class=biaoge13> 
+            <input type="radio" name="radiobutton" value="radiobutton" checked>
+            是 
+            <input type="radio" name="radiobutton" value="radiobutton">
+            否 </td>
+        </tr>
+        <tr> 
+          <td class=biaoge12>原来实验者：</td>
+          <td  class=biaoge13> 
+            <input id="demo2" name="demo2" type="text" size="30">
+          </td>
+        </tr>
+        <tr> 
+          <td class=biaoge12>参数1：</td>
+          <td  class=biaoge13> 
+            <input id="demo2" name="demo2" type="text" size="30">
+          </td>
+        </tr>
+        <tr> 
+          <td class=biaoge12>参数2：</td>
+          <td  class=biaoge13> 
+            <input id="demo2" name="demo2" type="text" size="30">
+          </td>
+        </tr>
+        <tr> 
+          <td class=biaoge12>参数3：</td>
+          <td  class=biaoge13> 
+            <input id="demo2" name="demo2" type="text" size="30">
+          </td>
+        </tr>
+        <tr> 
+          <td class=biaoge12>参数4：</td>
+          <td  class=biaoge13> 
+            <input id="demo2" name="demo2" type="text" size="30">
+          </td>
+        </tr>
+        <tr> 
+          <td class=biaoge12>参数5：</td>
+          <td  class=biaoge13> 
+            <input id="demo2" name="demo2" type="text" size="30">
+          </td>
+        </tr>
+        <tr> 
+          <td class=biaoge12>参数6：</td>
+          <td  class=biaoge13> 
+            <input id="demo2" name="demo2" type="text" size="30">
+          </td>
+        </tr>
+        <tr> 
+          <td class=biaoge12>实验简介：</td>
+          <td  class=biaoge16> 
+            <textarea id="demo1" name="demo1" cols="200"></textarea>
+          </td>
+        </tr>
+      </table>
+		<br>
+        <SPAN class=time2>上载附件：<input id="demo3" name="demo3" type="text" size="30"></SPAN> <br><br>
 
-</div>
+
+        <SPAN class=time2>上载图片：<input id="demo3" name="demo3" type="text" size="30"></SPAN> <br>
+
+   
+        <br><INPUT class=regbut id=submitButton style="BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none" type=submit value=添　加 >
+
+      </DIV>
+
+	</div>
+			<!--添加入口-->
+
+		<!--最新添加-->
+
 </div>
 
 <!--footer-->
