@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<include file="public:head" />
+</head>
+
+<body id="body">
+<include file="public:header" />
+
+<DIV class=area>
+	<DIV class=area-main>
+	<DIV >您的位置：<a href="http://www.mgdatabase.com/">首页</a> >>> 添加实验数据</DIV>
+	<br>
+  <DIV class=item-top>
+  <form method="POST" action="{:U('exp/addnew')}" enctype="multipart/form-data" >
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" class=biaoge7>
+        <tr> 
+          <td class=biaoge12>实验品名称：</td>
+          <td  class=biaoge13> 
+            <if condition="$title">
+			{$title}
+            <input  name="title" type="hidden" size="30" value="{$title}">
+            <else/>
+            <input  name="title" type="text" size="30">
+            </if>            
+            <font color="#FF0000">（必填项） </font></td>
+        </tr>
+        <tr> 
+          <td class=biaoge12>所属分类：</td>
+          <td  class=biaoge13> 
+            <select name="itemid" id="demo2">
+              {$arrItem}
+            </select>
+            <font color="#FF0000">（必选项） </font></td>
+        </tr>
+        <tr> 
+          <td class=biaoge12>是否原创：</td>
+          <td  class=biaoge13> 
+            <input type="radio" name="isoriginal" value="1" checked>
+            是 
+            <input type="radio" name="isoriginal" value="0">
+            否 </td>
+        </tr>
+        <tr> 
+          <td class=biaoge12>原来实验者：</td>
+          <td  class=biaoge13> 
+            <input id="demo2" name="author" type="text" size="30">
+          </td>
+        </tr>
+        <tr> 
+          <td class=biaoge12>参数1：</td>
+          <td  class=biaoge13> 
+            <input id="demo2" name="parameters[]" type="text" size="30">
+          </td>
+        </tr>
+        <tbody id="paramList"></tbody>
+        <tr> 
+          <td class=biaoge12>&nbsp;</td>
+          <td  class=biaoge13 style="height:20px;"> 
+           <a href="javascript:;" class="blue" onClick="app.addParam()"><b>添加参数</b></a>
+          </td>
+        </tr>        
+        <tr> 
+          <td class=biaoge12>实验简介：</td>
+          <td  class=biaoge16> 
+            <textarea id="demo1" name="content" cols="200"></textarea>
+          </td>
+        </tr>
+      </table>
+      <script language="javascript">
+			var app = {
+					addParam:function(){
+						var count = $('#paramList tr').length+2; 
+						var html = '<tr><td class=biaoge12>参数'+count+'：</td><td  class=biaoge13>'+
+						'<input id="demo2" name="parameters[]" type="text" size="30"> <a href="javascript:;" onclick="app.delParam(this)">删除</a></td></tr>';
+						$('#paramList').append(html);
+					},
+					delParam:function(o){
+						$(o).parents('tr').remove();
+					}
+					
+				}
+      </script>
+	   <div style="padding-left:15px; margin-top:10px">
+          <SPAN class=time2>上载附件：<input name="exfile" type="file"></SPAN> 
+          （每个附件不能大于3M，格式为：word、txt、excel、PPT、PDF）<br>
+          <br>
+            <SPAN class=time2>上载图片：<input name="picfile" type="file"></SPAN> 
+          <span class=time2>（每个附件不能大于3M，格式为：jpg、png、gif、bmp）</span><br>
+          <br><INPUT class=regbut id=submitButton style="BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none" type=submit value=添　加 >
+		</div>
+        </form>
+      </DIV>
+
+	</div>
+			<!--添加入口-->
+
+		<!--最新添加-->
+
+</div>
+
+<include file="public:footer" />
+</body>
+</html>

@@ -1,0 +1,2363 @@
+[ 2013-04-16T08:59:33+08:00 ] 58.215.136.141 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.007755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007872s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.018665s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000756s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.014477s ]
+INFO: [ view_template ] --END-- [ RunTime:0.014569s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.084589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084704s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001978s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001944s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002568s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001415s ]
+INFO: Run content_replace Behavior [ RunTime:0.022796s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.030989s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001934s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002014s ]
+
+[ 2013-04-16T09:00:29+08:00 ] 58.215.136.141 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001413s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.042549s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.001817s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001864s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001977s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.019922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020027s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001157s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001010s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000905s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001151s ]
+INFO: Run content_replace Behavior [ RunTime:0.001703s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006207s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001169s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001250s ]
+
+[ 2013-04-16T09:00:54+08:00 ] ERR: (ThinkException) 模板不存在[./app/Tpl/home/doc/add.html]
+[ 2013-04-16T11:13:00+08:00 ] 121.234.47.200 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.868979s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.154359s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001728s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001846s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.021813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022007s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001458s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001292s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001281s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001444s ]
+INFO: Run content_replace Behavior [ RunTime:0.002163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008022s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001556s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001652s ]
+
+[ 2013-04-16T11:26:45+08:00 ] 222.134.87.106 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.113278s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.001004s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001677s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001772s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.019642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019732s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001240s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001036s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000952s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001099s ]
+INFO: Run content_replace Behavior [ RunTime:0.001670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006274s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001229s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001308s ]
+
+[ 2013-04-16T11:26:50+08:00 ] 222.134.87.106 /index.php/exp/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001468s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001587s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.678735s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.356977s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001983s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002111s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020733s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001203s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001003s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001089s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001063s ]
+INFO: Run content_replace Behavior [ RunTime:0.001748s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006381s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001190s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001268s ]
+
+[ 2013-04-16T11:43:00+08:00 ] 101.226.33.226 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.713080s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.014307s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001691s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001811s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020369s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001170s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001258s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000940s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001213s ]
+INFO: Run content_replace Behavior [ RunTime:0.001822s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006692s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001283s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001368s ]
+
+[ 2013-04-16T11:56:52+08:00 ] 101.226.33.226 /index.php/exp/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001316s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001445s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:2.166534s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.586000s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001457s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001549s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014314s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000946s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000910s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000922s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001004s ]
+INFO: Run content_replace Behavior [ RunTime:0.001473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005522s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001097s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001172s ]
+
+[ 2013-04-16T14:30:14+08:00 ] 60.171.124.67 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001483s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.509665s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.229665s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001816s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001965s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024155s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001565s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001065s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000994s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001212s ]
+INFO: Run content_replace Behavior [ RunTime:0.001845s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007036s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001444s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001567s ]
+
+[ 2013-04-16T14:30:27+08:00 ] ERR: (ThinkException) 模板不存在[./app/Tpl/home/doc/add.html]
+[ 2013-04-16T14:30:48+08:00 ] 60.171.124.67 /index.php/user/register
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001508s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001672s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001345s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.045666s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.028457s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.061527s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.014547s ]
+INFO: [ view_template ] --END-- [ RunTime:0.014661s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025431s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001161s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001068s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000955s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001133s ]
+INFO: Run content_replace Behavior [ RunTime:0.001739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006343s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001272s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001354s ]
+
+[ 2013-04-16T14:30:49+08:00 ] 60.171.124.67 /index.php/captcha/1366093848
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001425s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001570s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001705s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.053533s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.007868s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+NOTIC: [8] Undefined index: width /var/www/vhosts/mgdatabase.com/httpdocs/app/Lib/ORG/Captcha.class.php 第 28 行.
+NOTIC: [8] Undefined index: height /var/www/vhosts/mgdatabase.com/httpdocs/app/Lib/ORG/Captcha.class.php 第 29 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/vhosts/mgdatabase.com/httpdocs/app/Lib/ORG/Captcha.class.php 第 42 行.
+
+[ 2013-04-16T14:30:59+08:00 ] 60.171.124.67 /index.php/captcha/1366093848
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001581s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001779s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.138103s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000895s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+NOTIC: [8] Undefined index: width /var/www/vhosts/mgdatabase.com/httpdocs/app/Lib/ORG/Captcha.class.php 第 28 行.
+NOTIC: [8] Undefined index: height /var/www/vhosts/mgdatabase.com/httpdocs/app/Lib/ORG/Captcha.class.php 第 29 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/vhosts/mgdatabase.com/httpdocs/app/Lib/ORG/Captcha.class.php 第 42 行.
+
+[ 2013-04-16T14:31:22+08:00 ] 60.171.124.67 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.408771s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.139061s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001716s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001812s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020370s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001209s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001094s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000953s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001133s ]
+INFO: Run content_replace Behavior [ RunTime:0.001811s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006489s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001266s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001351s ]
+
+[ 2013-04-16T15:07:35+08:00 ] 124.193.183.18 /index.php?g=admin&m=index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001769s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.012927s ]
+INFO: [ view_template ] --END-- [ RunTime:0.013109s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: admin /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/d5a2fbb4e6e85175428b971d119a1da3.php 第 22 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.082685s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082847s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001168s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001042s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001074s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001195s ]
+INFO: Run content_replace Behavior [ RunTime:0.001663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006463s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001379s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001472s ]
+
+[ 2013-04-16T15:07:44+08:00 ] 124.193.183.18 /index.php?g=admin&m=index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+SQL: SHOW COLUMNS FROM `ik_admin` [ RunTime:0.031118s ]
+SQL: SELECT * FROM `ik_admin` WHERE ( `email` = 'admin@admin.com' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.025249s ]
+SQL: UPDATE `ik_admin` SET `last_time`=1366096064,`last_ip`='124.193.183.18' WHERE ( `userid` = 1 ) [ RunTime:0.008064s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001879s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001970s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.021865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021955s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000960s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001033s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000813s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000988s ]
+INFO: Run content_replace Behavior [ RunTime:0.001527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005592s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001156s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001241s ]
+
+[ 2013-04-16T15:07:45+08:00 ] 124.193.183.18 /index.php?g=admin&m=index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001393s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001538s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001621s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/eac52eb4beb26b1a7cc980f46d91756f.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/eac52eb4beb26b1a7cc980f46d91756f.php 第 35 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.030097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030178s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001080s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001051s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000895s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001063s ]
+INFO: Run content_replace Behavior [ RunTime:0.001724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006084s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001195s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001272s ]
+
+[ 2013-04-16T15:07:47+08:00 ] 124.193.183.18 /index.php?g=admin&m=cate&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.034890s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.067401s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.010983s ]
+INFO: [ view_template ] --END-- [ RunTime:0.011082s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 35 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.050644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050740s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000971s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001010s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000831s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001023s ]
+INFO: Run content_replace Behavior [ RunTime:0.001471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005582s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001102s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001181s ]
+
+[ 2013-04-16T15:07:47+08:00 ] 124.193.183.18 /index.php?g=admin&m=index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001288s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001386s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/eac52eb4beb26b1a7cc980f46d91756f.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/eac52eb4beb26b1a7cc980f46d91756f.php 第 35 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.017520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017620s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001010s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000902s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000840s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001022s ]
+INFO: Run content_replace Behavior [ RunTime:0.001507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005559s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001090s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001169s ]
+
+[ 2013-04-16T15:07:56+08:00 ] 124.193.183.18 /index.php?g=admin&m=cate&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001855s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.009425s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.012013s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002392s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002530s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 78 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 80 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.020288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020440s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000981s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000925s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000850s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000977s ]
+INFO: Run content_replace Behavior [ RunTime:0.001463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005509s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001129s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001222s ]
+
+[ 2013-04-16T15:07:58+08:00 ] 124.193.183.18 /index.php?g=admin&m=item&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.018697s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.022663s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.013095s ]
+SQL: SELECT * FROM `ik_item` ORDER BY itemid desc  [ RunTime:0.000685s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/vhosts/mgdatabase.com/httpdocs/app/Lib/Action/admin/itemAction.class.php 第 18 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.012049s ]
+INFO: [ view_template ] --END-- [ RunTime:0.012217s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.032299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032455s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001019s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000956s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000837s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001015s ]
+INFO: Run content_replace Behavior [ RunTime:0.001451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005576s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001081s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001160s ]
+
+[ 2013-04-16T15:08:00+08:00 ] 124.193.183.18 /index.php?g=admin&m=item&a=add
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.026035s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.036132s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.035355s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002166s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002305s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.025813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025911s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001010s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000975s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000922s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001095s ]
+INFO: Run content_replace Behavior [ RunTime:0.001630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005919s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001328s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001507s ]
+
+[ 2013-04-16T15:08:07+08:00 ] 124.193.183.18 /index.php?g=admin&m=item&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001310s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.074196s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.379016s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.181975s ]
+SQL: SELECT * FROM `ik_item` ORDER BY itemid desc  [ RunTime:0.002832s ]
+SQL: SELECT `catename` FROM `ik_cate` WHERE ( `cateid` = 1 ) LIMIT 1   [ RunTime:0.004447s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001749s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001835s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 82 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 84 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 86 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.016957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017042s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001045s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000990s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000889s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001052s ]
+INFO: Run content_replace Behavior [ RunTime:0.001607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005847s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001180s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001259s ]
+
+[ 2013-04-16T15:08:12+08:00 ] 14.17.29.87 /index.php?g=admin&m=index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001474s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001910s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002040s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: admin /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/d5a2fbb4e6e85175428b971d119a1da3.php 第 22 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.014501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014632s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000992s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000983s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000840s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000960s ]
+INFO: Run content_replace Behavior [ RunTime:0.001543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005623s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001130s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001209s ]
+
+[ 2013-04-16T15:08:13+08:00 ] 14.17.29.87 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.146883s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.020460s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002407s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002555s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.026016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026151s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001201s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001021s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000891s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001086s ]
+INFO: Run content_replace Behavior [ RunTime:0.001723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006202s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001159s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001249s ]
+
+[ 2013-04-16T15:08:52+08:00 ] 124.193.183.18 /index.php?g=admin&m=cate&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001658s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.078764s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.019037s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001738s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001851s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 78 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 80 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.017157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017317s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001643s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001679s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001414s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001313s ]
+INFO: Run content_replace Behavior [ RunTime:0.001665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008150s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001476s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001569s ]
+
+[ 2013-04-16T15:08:54+08:00 ] 124.193.183.18 /index.php?g=admin&m=item&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.054230s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.037080s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.018003s ]
+SQL: SELECT * FROM `ik_item` ORDER BY itemid desc  [ RunTime:0.000735s ]
+SQL: SELECT `catename` FROM `ik_cate` WHERE ( `cateid` = 1 ) LIMIT 1   [ RunTime:0.000641s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001612s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001701s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 82 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 84 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 86 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.015878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015984s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001001s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000973s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000888s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001057s ]
+INFO: Run content_replace Behavior [ RunTime:0.001584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005767s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001214s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001292s ]
+
+[ 2013-04-16T15:11:10+08:00 ] 60.171.124.67 /index.php?g=admin&m=index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001491s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001575s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: admin /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/d5a2fbb4e6e85175428b971d119a1da3.php 第 22 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012653s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012744s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001022s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000998s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000962s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001065s ]
+INFO: Run content_replace Behavior [ RunTime:0.001613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005928s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001258s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001368s ]
+
+[ 2013-04-16T15:12:27+08:00 ] 60.171.124.67 /index.php?g=admin&m=index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+SQL: SHOW COLUMNS FROM `ik_admin` [ RunTime:0.159992s ]
+SQL: SELECT * FROM `ik_admin` WHERE ( `email` = 'admin@admin.com' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.370081s ]
+SQL: UPDATE `ik_admin` SET `last_time`=1366096347,`last_ip`='60.171.124.67' WHERE ( `userid` = 1 ) [ RunTime:0.017500s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001894s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001984s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010432s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000984s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000984s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000895s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001056s ]
+INFO: Run content_replace Behavior [ RunTime:0.001714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005906s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001168s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001248s ]
+
+[ 2013-04-16T15:12:27+08:00 ] 60.171.124.67 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001273s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.254977s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.002720s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001633s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001724s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.019998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020090s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001149s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000989s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000903s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001069s ]
+INFO: Run content_replace Behavior [ RunTime:0.001712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006099s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001171s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001285s ]
+
+[ 2013-04-16T15:12:30+08:00 ] 60.171.124.67 /index.php?g=admin&m=index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001444s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001551s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/eac52eb4beb26b1a7cc980f46d91756f.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/eac52eb4beb26b1a7cc980f46d91756f.php 第 35 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.016154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016267s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001207s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000995s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000906s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001129s ]
+INFO: Run content_replace Behavior [ RunTime:0.001633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006162s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001397s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001490s ]
+
+[ 2013-04-16T15:12:34+08:00 ] 60.171.124.67 /index.php?g=admin&m=item&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.028025s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.294315s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.026832s ]
+SQL: SELECT * FROM `ik_item` ORDER BY itemid desc  [ RunTime:0.003058s ]
+SQL: SELECT `catename` FROM `ik_cate` WHERE ( `cateid` = 1 ) LIMIT 1   [ RunTime:0.000666s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001527s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001618s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 82 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 84 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 86 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.015921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016034s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000955s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000907s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000866s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001023s ]
+INFO: Run content_replace Behavior [ RunTime:0.001468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005501s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001188s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001294s ]
+
+[ 2013-04-16T15:12:45+08:00 ] 60.171.124.67 /index.php?g=admin&m=item&a=add
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.029516s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.050651s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.073628s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001647s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001739s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.014529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014608s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001026s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001007s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000970s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001048s ]
+INFO: Run content_replace Behavior [ RunTime:0.001736s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006055s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001201s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001280s ]
+
+[ 2013-04-16T15:13:00+08:00 ] 60.171.124.67 /index.php?g=admin&m=cate&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001803s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.081093s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.034023s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001596s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001733s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 78 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 80 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.018136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018243s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001148s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001145s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001038s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001226s ]
+INFO: Run content_replace Behavior [ RunTime:0.001839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006778s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001245s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001379s ]
+
+[ 2013-04-16T15:13:11+08:00 ] ERR: (ThinkException) 无法加载模块:setting
+[ 2013-04-16T15:13:34+08:00 ] 60.171.124.67 /index.php?g=admin&m=cate&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001387s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.097056s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.176022s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001882s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001986s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 78 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 80 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 78 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 80 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.016376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016467s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001025s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001058s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000950s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001034s ]
+INFO: Run content_replace Behavior [ RunTime:0.001619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005945s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001223s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001318s ]
+
+[ 2013-04-16T15:13:38+08:00 ] 60.171.124.67 /index.php?g=admin&m=item&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001322s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.079278s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.079634s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.066749s ]
+SQL: SELECT * FROM `ik_item` ORDER BY itemid desc  [ RunTime:0.027727s ]
+SQL: SELECT `catename` FROM `ik_cate` WHERE ( `cateid` = 1 ) LIMIT 1   [ RunTime:0.271236s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001931s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002039s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 82 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 84 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 86 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.020110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020230s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001158s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001207s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001081s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001257s ]
+INFO: Run content_replace Behavior [ RunTime:0.001912s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006991s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001387s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001471s ]
+
+[ 2013-04-16T15:13:40+08:00 ] 60.171.124.67 /index.php?g=admin&m=item&a=add
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.522620s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.230609s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.020745s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001641s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001737s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.013761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013839s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000933s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000936s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000808s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000956s ]
+INFO: Run content_replace Behavior [ RunTime:0.001459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005370s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001096s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001174s ]
+
+[ 2013-04-16T15:13:58+08:00 ] 60.171.124.67 /index.php?g=admin&m=item&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001299s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.019329s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.031586s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.017027s ]
+SQL: SELECT * FROM `ik_item` ORDER BY itemid desc  [ RunTime:0.000521s ]
+SQL: SELECT `catename` FROM `ik_cate` WHERE ( `cateid` = 1 ) LIMIT 1   [ RunTime:0.000720s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001794s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001884s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 82 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 84 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 86 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.016864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016946s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001058s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001044s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000911s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001029s ]
+INFO: Run content_replace Behavior [ RunTime:0.001655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005986s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001264s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001342s ]
+
+[ 2013-04-16T15:14:00+08:00 ] 60.171.124.67 /index.php?g=admin&m=item&a=add
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.040063s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.143223s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.017643s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001529s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001618s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.017760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017841s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001003s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000988s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000931s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001063s ]
+INFO: Run content_replace Behavior [ RunTime:0.001607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005857s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001184s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001261s ]
+
+[ 2013-04-16T15:15:01+08:00 ] 60.171.124.67 /index.php?g=admin&m=item&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001325s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.087304s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.113049s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.046887s ]
+SQL: SELECT * FROM `ik_item` ORDER BY itemid desc  [ RunTime:0.001755s ]
+SQL: SELECT `catename` FROM `ik_cate` WHERE ( `cateid` = 1 ) LIMIT 1   [ RunTime:0.003070s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002768s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002949s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 82 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 84 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 86 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.031236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031449s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001830s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001807s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001847s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001844s ]
+INFO: Run content_replace Behavior [ RunTime:0.002056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009929s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001241s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001346s ]
+
+[ 2013-04-16T15:15:08+08:00 ] 60.171.124.67 /index.php?g=admin&m=cate&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001629s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.013579s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.015311s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001621s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001725s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 78 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 80 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 78 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 80 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 78 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 80 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.019052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019180s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001107s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001084s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000906s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001198s ]
+INFO: Run content_replace Behavior [ RunTime:0.001661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006269s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001293s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001390s ]
+
+[ 2013-04-16T15:15:34+08:00 ] 60.171.124.67 /index.php?g=admin&m=item&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.341326s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.513465s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.611062s ]
+SQL: SELECT * FROM `ik_item` ORDER BY itemid desc  [ RunTime:0.081974s ]
+SQL: SELECT `catename` FROM `ik_cate` WHERE ( `cateid` = 1 ) LIMIT 1   [ RunTime:0.185727s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001355s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001446s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 82 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 84 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 86 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.015271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015376s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000958s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000953s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000923s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001347s ]
+INFO: Run content_replace Behavior [ RunTime:0.001666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006136s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001226s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001306s ]
+
+[ 2013-04-16T15:15:35+08:00 ] 60.171.124.67 /index.php?g=admin&m=item&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.404303s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.183709s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.124760s ]
+SQL: SELECT * FROM `ik_item` ORDER BY itemid desc  [ RunTime:0.011226s ]
+SQL: SELECT `catename` FROM `ik_cate` WHERE ( `cateid` = 1 ) LIMIT 1   [ RunTime:0.003403s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001681s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001857s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 82 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 84 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 86 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.016342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016442s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001086s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001009s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000903s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001204s ]
+INFO: Run content_replace Behavior [ RunTime:0.001732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006241s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001305s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001400s ]
+
+[ 2013-04-16T15:16:05+08:00 ] 60.171.124.67 /index.php?g=admin&m=item&a=add
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001521s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.391886s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.512450s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.088406s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002482s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002646s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.015721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015881s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001046s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000989s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000933s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001093s ]
+INFO: Run content_replace Behavior [ RunTime:0.001613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005963s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001279s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001359s ]
+
+[ 2013-04-16T15:16:22+08:00 ] 60.171.124.67 /index.php?g=admin&m=item&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001321s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.613051s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.443505s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.118497s ]
+SQL: SELECT * FROM `ik_item` ORDER BY itemid desc  [ RunTime:0.087716s ]
+SQL: SELECT `catename` FROM `ik_cate` WHERE ( `cateid` = 2 ) LIMIT 1   [ RunTime:0.131498s ]
+SQL: SELECT `catename` FROM `ik_cate` WHERE ( `cateid` = 1 ) LIMIT 1   [ RunTime:0.091052s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001555s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001645s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 82 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 84 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 86 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 82 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 84 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 86 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.016962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017044s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001085s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001097s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000980s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001096s ]
+INFO: Run content_replace Behavior [ RunTime:0.001602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006154s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001455s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001540s ]
+
+[ 2013-04-16T15:17:32+08:00 ] 218.30.116.100 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001325s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.472574s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.024296s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001803s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001933s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.019962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020059s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001220s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001011s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000970s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001161s ]
+INFO: Run content_replace Behavior [ RunTime:0.001725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006402s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001238s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001385s ]
+
+[ 2013-04-16T15:22:04+08:00 ] 60.171.124.67 /index.php?g=admin&m=item&a=add
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002176s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.146896s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.082373s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.052254s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002690s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002853s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.016729s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016818s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001032s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000997s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000940s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001085s ]
+INFO: Run content_replace Behavior [ RunTime:0.001638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005959s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001198s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001277s ]
+
+[ 2013-04-16T15:22:14+08:00 ] 60.171.124.67 /index.php?g=admin&m=cate&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001344s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.710692s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.066693s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001477s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001562s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 78 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 80 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 78 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 80 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.015442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015519s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000990s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001003s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000884s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001034s ]
+INFO: Run content_replace Behavior [ RunTime:0.001641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005808s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001170s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001247s ]
+
+[ 2013-04-16T15:22:30+08:00 ] 60.171.124.67 /index.php?g=admin&m=cate&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.322076s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.168513s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001525s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001615s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 78 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 80 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 78 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 80 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 78 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 80 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.015320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015418s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001043s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000922s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000806s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000988s ]
+INFO: Run content_replace Behavior [ RunTime:0.001512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005541s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001111s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2013-04-16T15:22:33+08:00 ] 60.171.124.67 /index.php?g=admin&m=item&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.082695s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.176647s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.020552s ]
+SQL: SELECT * FROM `ik_item` ORDER BY itemid desc  [ RunTime:0.008201s ]
+SQL: SELECT `catename` FROM `ik_cate` WHERE ( `cateid` = 2 ) LIMIT 1   [ RunTime:0.015118s ]
+SQL: SELECT `catename` FROM `ik_cate` WHERE ( `cateid` = 1 ) LIMIT 1   [ RunTime:0.007563s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002009s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002108s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 82 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 84 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 86 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 82 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 84 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 86 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.016434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016519s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001003s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001009s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000887s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001084s ]
+INFO: Run content_replace Behavior [ RunTime:0.001607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005852s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001188s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001270s ]
+
+[ 2013-04-16T15:22:38+08:00 ] 60.171.124.67 /index.php?g=admin&m=cate&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001316s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.036092s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.042350s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001761s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001872s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 78 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 80 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 78 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 80 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 78 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 80 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.015949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016034s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001019s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000980s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000932s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001049s ]
+INFO: Run content_replace Behavior [ RunTime:0.001637s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005885s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001199s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001277s ]
+
+[ 2013-04-16T15:22:41+08:00 ] 60.171.124.67 /index.php?g=admin&m=item&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001296s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.202456s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.136002s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.130176s ]
+SQL: SELECT * FROM `ik_item` ORDER BY itemid desc  [ RunTime:0.001761s ]
+SQL: SELECT `catename` FROM `ik_cate` WHERE ( `cateid` = 2 ) LIMIT 1   [ RunTime:0.000412s ]
+SQL: SELECT `catename` FROM `ik_cate` WHERE ( `cateid` = 1 ) LIMIT 1   [ RunTime:0.000696s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001476s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001563s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 82 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 84 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 86 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 82 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 84 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 86 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.017380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017466s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001044s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001082s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001007s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001230s ]
+INFO: Run content_replace Behavior [ RunTime:0.001687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006335s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001302s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001381s ]
+
+[ 2013-04-16T15:22:52+08:00 ] 60.171.124.67 /index.php?g=admin&m=item&a=add
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001326s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:1.846727s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.893371s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.207201s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001579s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001701s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.015152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015229s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000984s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001020s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000890s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001061s ]
+INFO: Run content_replace Behavior [ RunTime:0.001605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005834s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001170s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001248s ]
+
+[ 2013-04-16T15:23:03+08:00 ] 60.171.124.67 /index.php?g=admin&m=item&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001304s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.017386s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.025617s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.017618s ]
+SQL: SELECT * FROM `ik_item` ORDER BY itemid desc  [ RunTime:0.004945s ]
+SQL: SELECT `catename` FROM `ik_cate` WHERE ( `cateid` = 4 ) LIMIT 1   [ RunTime:0.008125s ]
+SQL: SELECT `catename` FROM `ik_cate` WHERE ( `cateid` = 2 ) LIMIT 1   [ RunTime:0.002976s ]
+SQL: SELECT `catename` FROM `ik_cate` WHERE ( `cateid` = 1 ) LIMIT 1   [ RunTime:0.004268s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001820s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001929s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 82 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 84 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 86 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 82 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 84 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 86 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 82 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 84 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 86 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.016654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016737s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001027s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001004s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000923s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001062s ]
+INFO: Run content_replace Behavior [ RunTime:0.001612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005894s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001177s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001255s ]
+
+[ 2013-04-16T15:36:09+08:00 ] 220.181.132.19 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001614s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.080306s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.012503s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001587s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001707s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022331s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001442s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001048s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000892s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001184s ]
+INFO: Run content_replace Behavior [ RunTime:0.001808s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006684s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001240s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001359s ]
+
+[ 2013-04-16T15:42:13+08:00 ] 60.171.124.67 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001635s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.019642s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.011506s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002555s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002734s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023526s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001300s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001080s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000976s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001185s ]
+INFO: Run content_replace Behavior [ RunTime:0.001861s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006875s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001315s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001427s ]
+
+[ 2013-04-16T15:42:46+08:00 ] 60.171.124.67 /index.php?g=admin&m=item&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001430s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.014173s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.044668s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.019753s ]
+SQL: SELECT * FROM `ik_item` ORDER BY itemid desc  [ RunTime:0.007754s ]
+SQL: SELECT `catename` FROM `ik_cate` WHERE ( `cateid` = 4 ) LIMIT 1   [ RunTime:0.000719s ]
+SQL: SELECT `catename` FROM `ik_cate` WHERE ( `cateid` = 2 ) LIMIT 1   [ RunTime:0.000681s ]
+SQL: SELECT `catename` FROM `ik_cate` WHERE ( `cateid` = 1 ) LIMIT 1   [ RunTime:0.000623s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001488s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001575s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 82 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 84 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 86 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 82 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 84 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 86 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 82 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 84 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 86 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.017329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017414s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001037s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001005s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001052s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001074s ]
+INFO: Run content_replace Behavior [ RunTime:0.001686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006135s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001229s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001308s ]
+
+[ 2013-04-16T15:43:00+08:00 ] 60.171.124.67 /index.php?g=admin&m=cate&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001310s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.084926s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.056590s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001709s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001801s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 78 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 80 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 78 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 80 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 78 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 80 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.015176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015256s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001012s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000987s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000938s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001038s ]
+INFO: Run content_replace Behavior [ RunTime:0.001615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005871s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001194s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001275s ]
+
+[ 2013-04-16T15:43:07+08:00 ] 60.171.124.67 /index.php?g=admin&m=item&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.021201s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.034595s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.015875s ]
+SQL: SELECT * FROM `ik_item` ORDER BY itemid desc  [ RunTime:0.000516s ]
+SQL: SELECT `catename` FROM `ik_cate` WHERE ( `cateid` = 4 ) LIMIT 1   [ RunTime:0.000643s ]
+SQL: SELECT `catename` FROM `ik_cate` WHERE ( `cateid` = 2 ) LIMIT 1   [ RunTime:0.000611s ]
+SQL: SELECT `catename` FROM `ik_cate` WHERE ( `cateid` = 1 ) LIMIT 1   [ RunTime:0.000712s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001469s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001554s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 82 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 84 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 86 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 82 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 84 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 86 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 82 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 84 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 86 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.020611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020736s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001060s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001039s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000904s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001077s ]
+INFO: Run content_replace Behavior [ RunTime:0.001602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005956s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001178s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001307s ]
+
+[ 2013-04-16T15:43:09+08:00 ] 60.171.124.67 /index.php?g=admin&m=item&a=add
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.013267s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.024688s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.027136s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001691s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001775s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.015099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015179s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001041s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000980s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000892s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001084s ]
+INFO: Run content_replace Behavior [ RunTime:0.001646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005909s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001204s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001282s ]
+
+[ 2013-04-16T15:43:13+08:00 ] 60.171.124.67 /index.php?g=admin&m=cate&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.011967s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.007970s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001435s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001532s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 78 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 80 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 78 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 80 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 78 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 80 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.015738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015820s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001004s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001002s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000881s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001086s ]
+INFO: Run content_replace Behavior [ RunTime:0.001654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005890s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001283s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001362s ]
+
+[ 2013-04-16T15:43:16+08:00 ] 60.171.124.67 /index.php?g=admin&m=item&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.017725s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.032085s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.011112s ]
+SQL: SELECT * FROM `ik_item` ORDER BY itemid desc  [ RunTime:0.000666s ]
+SQL: SELECT `catename` FROM `ik_cate` WHERE ( `cateid` = 4 ) LIMIT 1   [ RunTime:0.000651s ]
+SQL: SELECT `catename` FROM `ik_cate` WHERE ( `cateid` = 2 ) LIMIT 1   [ RunTime:0.000641s ]
+SQL: SELECT `catename` FROM `ik_cate` WHERE ( `cateid` = 1 ) LIMIT 1   [ RunTime:0.000407s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001683s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001783s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 82 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 84 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 86 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 82 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 84 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 86 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 82 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 84 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 86 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.016781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016871s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001066s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001027s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000895s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001057s ]
+INFO: Run content_replace Behavior [ RunTime:0.001680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005992s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001171s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001248s ]
+
+[ 2013-04-16T15:43:19+08:00 ] 60.171.124.67 /index.php?g=admin&m=cate&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.013243s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.015254s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001534s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001618s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 78 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 80 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 78 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 80 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 78 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 80 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.016029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016108s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000995s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000984s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000934s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001041s ]
+INFO: Run content_replace Behavior [ RunTime:0.001665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005879s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001215s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001293s ]
+
+[ 2013-04-16T15:43:21+08:00 ] 60.171.124.67 /index.php?g=admin&m=item&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001299s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.042815s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.022223s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.018836s ]
+SQL: SELECT * FROM `ik_item` ORDER BY itemid desc  [ RunTime:0.000367s ]
+SQL: SELECT `catename` FROM `ik_cate` WHERE ( `cateid` = 4 ) LIMIT 1   [ RunTime:0.007819s ]
+SQL: SELECT `catename` FROM `ik_cate` WHERE ( `cateid` = 2 ) LIMIT 1   [ RunTime:0.000499s ]
+SQL: SELECT `catename` FROM `ik_cate` WHERE ( `cateid` = 1 ) LIMIT 1   [ RunTime:0.000873s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001803s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001901s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 82 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 84 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 86 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 82 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 84 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 86 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 82 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 84 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 86 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.017131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017229s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001039s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001005s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000895s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001113s ]
+INFO: Run content_replace Behavior [ RunTime:0.001659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005985s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001180s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001257s ]
+
+[ 2013-04-16T15:43:27+08:00 ] 60.171.124.67 /index.php?g=admin&m=item&a=add
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001196s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.028299s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.029576s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.012973s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001572s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001662s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/40572f8d9c5c79f061d4a3a7dba195bf.php 第 64 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.015525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015609s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001045s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001024s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000932s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001108s ]
+INFO: Run content_replace Behavior [ RunTime:0.001671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006051s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001203s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001281s ]
+
+[ 2013-04-16T15:44:02+08:00 ] 60.171.124.67 /index.php?g=admin&m=cate&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001616s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.019573s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.040455s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001856s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001970s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 78 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 80 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 78 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 80 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 78 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 80 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.016516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016674s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001054s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001067s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000981s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001172s ]
+INFO: Run content_replace Behavior [ RunTime:0.001837s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006460s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001257s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001354s ]
+
+[ 2013-04-16T15:44:10+08:00 ] 60.171.124.67 /index.php?g=admin&m=item&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.014891s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.025908s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.012112s ]
+SQL: SELECT * FROM `ik_item` ORDER BY itemid desc  [ RunTime:0.000653s ]
+SQL: SELECT `catename` FROM `ik_cate` WHERE ( `cateid` = 4 ) LIMIT 1   [ RunTime:0.000481s ]
+SQL: SELECT `catename` FROM `ik_cate` WHERE ( `cateid` = 2 ) LIMIT 1   [ RunTime:0.000583s ]
+SQL: SELECT `catename` FROM `ik_cate` WHERE ( `cateid` = 1 ) LIMIT 1   [ RunTime:0.000694s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001551s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001664s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 82 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 84 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 86 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 82 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 84 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 86 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 82 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 84 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 86 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.024743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024880s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001608s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001719s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001483s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001490s ]
+INFO: Run content_replace Behavior [ RunTime:0.001687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008421s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001319s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001424s ]
+
+[ 2013-04-16T15:44:18+08:00 ] 60.171.124.67 /index.php?g=admin&m=cate&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001266s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.135786s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.068527s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001572s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001660s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 78 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 80 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 78 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 80 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 78 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 80 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/52322c6b06b12411c563e7793fb1e41b.php 第 82 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.015176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015261s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000991s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001007s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000953s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001043s ]
+INFO: Run content_replace Behavior [ RunTime:0.001613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005884s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001166s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001261s ]
+
+[ 2013-04-16T15:44:28+08:00 ] 60.171.124.67 /index.php?g=admin&m=item&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.109329s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.066404s ]
+SQL: SELECT * FROM `ik_cate` ORDER BY cateid desc  [ RunTime:0.026283s ]
+SQL: SELECT * FROM `ik_item` ORDER BY itemid desc  [ RunTime:0.000526s ]
+SQL: SELECT `catename` FROM `ik_cate` WHERE ( `cateid` = 4 ) LIMIT 1   [ RunTime:0.001763s ]
+SQL: SELECT `catename` FROM `ik_cate` WHERE ( `cateid` = 2 ) LIMIT 1   [ RunTime:0.003964s ]
+SQL: SELECT `catename` FROM `ik_cate` WHERE ( `cateid` = 1 ) LIMIT 1   [ RunTime:0.020882s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001671s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001760s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant cate - assumed 'cate' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 34 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 35 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant cateid - assumed 'cateid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 59 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 82 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 84 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 86 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 82 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 84 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 86 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 82 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 84 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 86 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+NOTIC: [8] Use of undefined constant itemid - assumed 'itemid' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/admin/6090765389774d6a15ddce11022e141b.php 第 87 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.016730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016809s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001048s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000975s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000885s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001120s ]
+INFO: Run content_replace Behavior [ RunTime:0.001652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005946s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001182s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001261s ]
+
+[ 2013-04-16T15:44:41+08:00 ] 220.181.132.15 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001691s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.022272s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.002963s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001725s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001857s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.021299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021411s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001144s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000905s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000834s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001040s ]
+INFO: Run content_replace Behavior [ RunTime:0.001592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005807s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001171s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001265s ]
+
+[ 2013-04-16T15:55:26+08:00 ] 220.181.132.18 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.099297s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.036140s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001665s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001756s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.019551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019656s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001173s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001064s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000911s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001090s ]
+INFO: Run content_replace Behavior [ RunTime:0.001742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006288s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001202s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001281s ]
+
+[ 2013-04-16T16:09:09+08:00 ] 220.181.132.200 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001412s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.036173s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.003971s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002619s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002749s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022752s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001305s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001082s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000971s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001358s ]
+INFO: Run content_replace Behavior [ RunTime:0.001870s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006888s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001344s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001427s ]
+
+[ 2013-04-16T16:28:29+08:00 ] 46.165.230.206 /?dgcr=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001353s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.022552s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000999s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001694s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001784s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.021025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021113s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001238s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001052s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000970s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001136s ]
+INFO: Run content_replace Behavior [ RunTime:0.001970s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006653s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001346s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001431s ]
+
+[ 2013-04-16T17:09:29+08:00 ] 60.171.124.67 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.011109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011291s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.054633s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.001038s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007072s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007264s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.113096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113297s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.011471s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002283s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001941s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002352s ]
+INFO: Run content_replace Behavior [ RunTime:0.008698s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.027170s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002761s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002936s ]
+
+[ 2013-04-16T20:23:51+08:00 ] 123.125.244.216 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.007536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007683s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.014298s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000729s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002648s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002755s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.089928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090065s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.006058s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002857s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003809s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003070s ]
+INFO: Run content_replace Behavior [ RunTime:0.019949s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.036053s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004805s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004894s ]
+

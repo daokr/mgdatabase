@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<include file="public:head" />
+</head>
+
+<body id="body">
+<include file="public:header" />
+<include file="user_nav" />
+<DIV class=area>
+  	<DIV class=area-main2>
+	<DIV class="title-bar1"><SPAN class="h7">{$user[username]}个人中心</SPAN> - {$seo.title}</DIV>
+	
+    <DIV class=content>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="table2">
+      <tr> 
+        <td><a href="#">全选</a>　<a href="#">删除</a></td>
+        <td>期刊名称</td>
+        <td>卷号</td>
+        <td>年份</td>
+        <td>起始页码</td>
+        <td>原作者</td>
+        <td>附件</td>
+        <td>操作</td>
+      </tr>
+<foreach name="lists" item="item">      
+      <tr> 
+        <td><input type="checkbox" value=""></td>
+        <td><a href="{:U('doc/show',array('id'=>$item[id]))}">{$item[title]}</a></td>
+        <td>{$item[volume]}</td>
+        <td>{$item[datetime]}</td>
+        <td>{$item[pagestart]}</td>
+        <td>{$item[author]}</td>
+        <td><a href="{:U('doc/down',array('id'=>$item[id]))}" target="_blank">下载</a></td>
+        <td><a href="{:U('doc/editdoc',array('id'=>$item[id]))}">修改</a></td>
+      </tr>
+</foreach>        
+</table>        
+    	 <div class="page">{$pageUrl}</div>
+         
+    </DIV>
+</div>
+</div>
+
+<include file="public:footer" />
+</body>
+</html>
+

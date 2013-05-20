@@ -169,7 +169,7 @@ addLoadEvent(iFocusChange);
 <div class="ntes-passport-nav-bg" >
 <div class="ntes-passport-nav" >
         <div class="web-version">
-		<div ><a href="http://www.mgdatabase.com/">English Version</a></div>
+		<div ><a href="http://www.mgdatabase.com/">首页</a></div>
 		</div>
         <?php if(empty($visitor)): ?><div class="rightCon">
               <form action="<?php echo U('user/login');?>" method="post">  
@@ -188,8 +188,8 @@ addLoadEvent(iFocusChange);
 <!-- 搜索 -->
      
 <div class="channel"> <div class="left"><a  href="__SITE_URL__"><img width="200" height="50" alt="亚稳材料数据库" src="__STATIC__/public/images/logo.jpg" border="0"></a></div>
-  <div class="left1"><a target="_blank" href="xwlist.htm">新闻</a> | <a href="qlist.htm" target="_blank">分类</a> 
-    | <a href="qxwlist.htm" target="_blank">文献</a> | <a href="qzlist.htm" target="_blank">求助</a> | <a href="gonggao.htm" target="_blank">公告：<MARQUEE DIRECTION=LEFT WIDTH=200 scrollamount=2>文字向左边滚动</MARQUEE></a></div>
+  <div class="left1"><a target="_blank" href="<?php echo U('article/lists');?>">新闻</a> | <a href="qlist.htm" target="_blank">分类</a> 
+    | <a href="<?php echo U('doc/lists');?>" target="_blank">文献</a> | <a href="<?php echo U('qa/lists');?>" target="_blank">求助</a> | <a href="gonggao.htm" target="_blank">公告：<MARQUEE DIRECTION=LEFT WIDTH=200 scrollamount=2>文字向左边滚动</MARQUEE></a></div>
   <span class="right "> 
 
 <div class="searcharea">
@@ -200,9 +200,7 @@ addLoadEvent(iFocusChange);
 </div>
 
   </span> </div>
-	<div class="channel1">
-	　
-	</div>
+	<div class="channel1">&nbsp;</div>
 	
 	<!--分类列表-->
 	<DIV class=area>
@@ -249,71 +247,72 @@ addLoadEvent(iFocusChange);
 <LI><A href="#">今日要闻今日要闻今日要闻今日要…</A></LI>
 <LI><A href="#">今日要闻今日要闻今日要闻今日要…</A></LI>
 </DIV>
-<br><br>
-	<DIV class="title-bar1"><A href="http://">元素分类1</A></DIV>
-	<DIV class="wz1">
-	<A href="sy.htm">metallic element(s)</A><SPAN 
-class=cLGray>|</SPAN><A href="sy.htm">metallic element(s)1</A><SPAN 
-class=cLGray>|</SPAN><A href="sy.htm">metallic element(s)1</A><SPAN 
-class=cLGray>|</SPAN><A href="sy.htm">metallic element(s)1</A><SPAN 
-class=cLGray>|</SPAN><A href="sy.htm">metallic element(s)1</A><SPAN 
-class=cLGray>|</SPAN><A href="sy.htm">metallic element(s)1</A><SPAN 
-class=cLGray>|</SPAN><A href="sy.htm">metallic element(s)1</A><SPAN 
-class=cLGray>|</SPAN><A href="sy.htm">metallic element(s)1</A><SPAN 
-class=cLGray>|</SPAN><A href="sy.htm">metallic element(s)1</A></DIV> 
-<DIV class="more"><A href="list.htm">查看全部 >>> </A> </DIV>
+<br>
+<br>
+<?php if(is_array($arrCate)): foreach($arrCate as $key=>$item): ?><DIV class="title-bar1"><A href="http://"><?php echo ($item[catename]); ?></A></DIV>
+<DIV class="wz1">
+	<?php if(is_array($item[items])): foreach($item[items] as $key=>$stritem): ?><A href="sy.htm"><?php echo ($stritem[itemname]); ?></A><SPAN class=cLGray>|</SPAN>
+   		<?php if(is_array($stritem[params])): foreach($stritem[params] as $key=>$param): echo ($param[paramname]); ?>&nbsp;&nbsp;<?php endforeach; endif; ?>
+    <br><?php endforeach; endif; ?>
+</DIV> 
+<DIV class="more"><A href="list.htm">查看全部 >>> </A> </DIV><?php endforeach; endif; ?>
+
+
+
 <SPAN class=blank20></SPAN>
-	<DIV class="title-bar1"><A href="http://">元素分类2</A></DIV>
-	<DIV class="wz1">
-	<A href="sy.htm">metallic element(s)</A><SPAN 
-class=cLGray>|</SPAN><A href="sy.htm">metallic element(s)1</A><SPAN 
-class=cLGray>|</SPAN><A href="sy.htm">metallic element(s)1</A><SPAN 
-class=cLGray>|</SPAN><A href="sy.htm">metallic element(s)1</A><SPAN 
-class=cLGray>|</SPAN><A href="sy.htm">metallic element(s)1</A><SPAN 
-class=cLGray>|</SPAN><A href="sy.htm">metallic element(s)1</A><SPAN 
-class=cLGray>|</SPAN><A href="sy.htm">metallic element(s)1</A><SPAN 
-class=cLGray>|</SPAN><A href="sy.htm">metallic element(s)1</A><SPAN 
-class=cLGray>|</SPAN><A href="sy.htm">metallic element(s)1</A></DIV> 
-<DIV class="more"><A href="list.htm">查看全部 >>> </A> </DIV>
-<SPAN class=blank20></SPAN>
-<DIV class="left"><DIV class="title-bar6"><SPAN class="bt"><A href="qxwlist.htm">文献资料</A></SPAN >
-<SPAN class="more"><A href="qxwlist.htm">更多</A></SPAN>
-<LI><A href="wxarticle.htm">《环球杂志》2012年第2期《我的新发现》</A></LI>
-<LI><A href="#">《环球杂志》2012年第2期《我的新发现》</A></LI>
-<LI><A href="#">《环球杂志》2012年第2期《我的新发现》</A></LI>
-<LI><A href="#">《环球杂志》2012年第2期《我的新发现》</A></LI>
-<LI><A href="#">《环球杂志》2012年第2期《我的新发现》</A></LI>
-<LI><A href="#">《环球杂志》2012年第2期《我的新发现》</A></LI>
-<LI><A href="#">《环球杂志》2012年第2期《我的新发现》</A></LI>
-<LI><A href="#">《环球杂志》2012年第2期《我的新发现》</A></LI>
-<LI><A href="#">《环球杂志》2012年第2期《我的新发现》</A></LI>
-</DIV></div>
-<DIV class="right"><DIV class="title-bar6"><SPAN class="bt"><A href="qzlist.htm">求助专区</A></SPAN >
+<DIV class="">
+<DIV class="title-bar6">
+<SPAN class="bt"><A href="qxwlist.htm">文献资料</A></SPAN >
+<SPAN class="more"><A href="<?php echo U('doc/lists');?>">更多</A></SPAN>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="table1">
+  <tr>
+    <th scope="col">期刊名称</th>
+    <th scope="col">卷号</th>
+    <th scope="col">年份</th>
+    <th scope="col">起始页码</th>
+    <th scope="col">作者</th>
+    <th scope="col">下载</th>
+  </tr>
+  <?php if(is_array($arrdoc)): foreach($arrdoc as $key=>$item): ?><tr>
+    <td><A href="<?php echo U('doc/show',array('id'=>$item[id]));?>" title="<?php echo ($item[title]); ?>"><?php echo ($item[title]); ?></A></td>
+    <td><?php echo ($item[volume]); ?></td>
+    <td><?php echo ($item[datetime]); ?></td>
+    <td><?php echo ($item[pagestart]); ?></td>
+    <td><?php echo ($item[author]); ?></td>
+    <td><?php echo ($item[downcount]); ?></td>
+  </tr><?php endforeach; endif; ?>  
+</table>
+
+
+
+</DIV>
+</div>
+<DIV class=""><DIV class="title-bar6"><SPAN class="bt"><A href="qzlist.htm">求助专区</A></SPAN >
 <SPAN class="more"><A href="qzlist.htm">更多</A></SPAN>
-<LI><A href="qzarticle.htm">咨询一个实验过程</A></LI>
-<LI><A href="#">咨询一个实验过程</A></LI>
-<LI><A href="#">咨询一个实验过程</A></LI>
-<LI><A href="#">咨询一个实验过程</A></LI>
-<LI><A href="#">咨询一个实验过程</A></LI>
-<LI><A href="#">咨询一个实验过程</A></LI>
-<LI><A href="#">咨询一个实验过程</A></LI>
-<LI><A href="#">咨询一个实验过程</A></LI>
-<LI><A href="#">咨询一个实验过程</A></LI>
+<LI><span>3分钟前</span><A href="#">咨询一个实验过程</A><a href="#">[小麦]</a></LI>
+<LI><span>13分钟前</span><A href="#">床垫沙发竟成毒源，如何判断是否含"毒"？</A><a href="#">[小麦]</a></LI>
+<LI><span>44分钟前</span><A href="#">电脑启动得按DEL ， 然后就进入时间设置了 ， 这个怎么..</A><a href="#">[小麦]</a></LI>
+<LI><span>3分钟前</span><A href="#">咨询一个实验过程</A><a href="#">[小麦]</a></LI>
+<LI><span>13分钟前</span><A href="#">床垫沙发竟成毒源，如何判断是否含"毒"？</A><a href="#">[小麦]</a></LI>
+<LI><span>44分钟前</span><A href="#">电脑启动得按DEL ， 然后就进入时间设置了 ， 这个怎么..</A><a href="#">[小麦]</a></LI>
+<LI><span>3分钟前</span><A href="#">咨询一个实验过程</A><a href="#">[小麦]</a></LI>
+<LI><span>13分钟前</span><A href="#">床垫沙发竟成毒源，如何判断是否含"毒"？</A><a href="#">[小麦]</a></LI>
+<LI><span>44分钟前</span><A href="#">电脑启动得按DEL ， 然后就进入时间设置了 ， 这个怎么..</A><a href="#">[小麦]</a></LI>
 </DIV></div>
 </div>
 
 	
 		<!--添加入口-->
   <DIV class=sub-col-6> 
-  <table width="240" border="0" cellspacing="0" cellpadding="0">
+	  <table width="240" border="0" cellspacing="0" cellpadding="0">
   <tr>
-        <td><a href="<?php echo U('exp/add');?>" target="_blank"><img src="__STATIC__/public/images/tjsysj.jpg" width="240" height="34" border="0"></a></td>
+        <td><a href="<?php echo U('exp/add');?>"><img src="__STATIC__/public/images/tjsysj.jpg" width="240" height="34" border="0"></a></td>
   </tr>
   <tr>
-        <td><a href="<?php echo U('doc/add');?>" target="_blank"><img src="__STATIC__/public/images/tjwxzl.jpg" width="240" height="34" border="0"></a></td>
+        <td><a href="<?php echo U('doc/add');?>"><img src="__STATIC__/public/images/tjwxzl.jpg" width="240" height="34" border="0"></a></td>
   </tr>
   <tr>
-        <td><a href="<?php echo U('qa/add');?>" target="_blank"><img src="__STATIC__/public/images/tjqzxx.jpg" width="240" height="34" border="0"></a></td>
+        <td><a href="<?php echo U('qa/add');?>"><img src="__STATIC__/public/images/tjqzxx.jpg" width="240" height="34" border="0"></a></td>
   </tr>
 </table>
   </div>
@@ -322,31 +321,16 @@ class=cLGray>|</SPAN><A href="sy.htm">metallic element(s)1</A></DIV>
 <DIV class=mod>
 <DIV class="news-column sline">
 <DIV class="title-bar ui-til2">
-<H2><A class=the-other-side 
-href="#">最新</A></H2><SPAN 
-class="more"><A 
-href="#">更多</A></SPAN></DIV>
-<DIV class="mod-imgText imgText-widget-1 clearfix">
-<H3 class=main-title><A 
-href="#">metallic element(s)</A></H3>
-          <a 
-href="http://"><img src="__STATIC__/public/images/dengtu.jpg" 
-width=100 height=70 border="0"></a> 
-          <P>具有金属通性的元素。金属元素种类高达八十余种</P>
-        </DIV>
+<H2><A class=the-other-side href="#">最新</A></H2><SPAN class="more"><A href="#">更多</A></SPAN></DIV>
+<?php if(is_array($arrNewExp)): foreach($arrNewExp as $key=>$item): if($key == 0): ?><DIV class="mod-imgText imgText-widget-1 clearfix">
+<H3 class=main-title><A href="#"><?php echo ($item[title]); ?></A></H3>
+<a href="http://"><img src="<?php echo ($item[picfile]); ?>" width=100 height=70 border="0"></a> 
+<P><?php echo getsubstrutf8 ( t ( $item ['content'] ), 0, 50 ); ?></P>
+</DIV><?php endif; endforeach; endif; ?>
 <UL class="mod-list sub-list">
-  <LI><A 
-  href="#">inorganic nonmetallic materials</A> 
-  </LI>
-  <LI><A 
-  href="#">6C 14Si 32Ge 50Sn 82Pb </A> 
-  </LI>
-  <LI><A 
-  href="#">6C 14Si 32Ge 50Sn 82Pb </A> 
-  </LI>
-  <LI><A 
-  href="#">6C 14Si 32Ge 50Sn 82Pb </A> 
-  </LI></UL><SPAN class=blank9></SPAN></DIV>  
+<?php if(is_array($arrNewExp)): foreach($arrNewExp as $key=>$item): if($key != 0): ?><LI><A href="#"><?php echo ($item[title]); ?></A></LI><?php endif; endforeach; endif; ?>
+</UL>
+<SPAN class=blank9></SPAN></DIV>  
   <!--最热条目-->
 <DIV class="news-column sline">
 <DIV class="title-bar ui-til2">
@@ -381,64 +365,15 @@ href="#">更多</A></SPAN></DIV>
   <!--活跃用户-->
 <DIV class="news-column sline">
 <DIV class="title-bar ui-til2">
-<H2><A class=the-huo href="#">活跃用户</A></H2><SPAN 
-class="more readAll"><A 
-href="#">更多</A></SPAN></DIV>
+<H2><span class="the-huo">活跃用户</span></H2><SPAN 
+class="more readAll"></SPAN></DIV>
 <UL class="mod-list sub-list">
-  <LI><A 
-  href="#">吴澧</A>　提交5条 
-  </LI>
-  <LI><A 
-  href="#">周娅</A> 　提交4条
-  </LI>
-  <LI><A 
-  href="#">王涌</A> 　提交3条
-  </LI>
-    <LI><A 
-  href="#">周娅</A> 　提交3条
-  </LI>
-  <LI><A 
-  href="#">王涌</A> 　提交3条
-  </LI>
-    <LI><A 
-  href="#">周娅</A> 　提交2条
-  </LI>
-  <LI><A 
-  href="#">王涌</A> 　提交2条
-  </LI>
-  <LI><A 
-  href="#">王晓民</A>　提交2条 
-  </LI></UL><SPAN class=blank9></SPAN></DIV>
-    <!--帮助-->
-<DIV class="news-column sline">
-<DIV class="title-bar ui-til2">
-<H2><A class=the-bang href="#">帮助</A></H2><SPAN 
-class="more readAll"><A 
-href="#">更多</A></SPAN></DIV>
-<UL class="mod-list sub-list">
-          <LI><A 
-  href="#">如何注册？</A> </LI>
-  <LI><A 
-  href="#">如何找回密码？</A> 
-  </LI>
-  <LI><A 
-  href="#">如何添加新条目？</A> 
-  </LI>
-    <LI><A 
-  href="#">下载积分如何赚取？</A> 
-  </LI>
-  <LI><A 
-  href="#">如何购买积分？</A> 
-  </LI>
-    <LI><A 
-  href="#">如何购买积分？</A> 
-  </LI>
-  <LI><A 
-  href="#">如何购买积分？</A> 
-  </LI>
-  <LI><A 
-  href="#">如何购买积分？</A> 
-  </LI></UL></DIV> 
+<?php if(is_array($arrHotUser)): foreach($arrHotUser as $key=>$item): ?><LI><A href="#"><?php echo ($item[username]); ?></A>　提交5条 </LI><?php endforeach; endif; ?>  
+</UL>
+<SPAN class=blank9></SPAN>
+</DIV>
+
+ 
   </DIV> 
   </DIV>
 
@@ -458,7 +393,16 @@ class=cLGray>|</SPAN><A href="http://">科学杂志</A></DIV>
 	</div></div>
 	
 <!--版权-->
-<!--footer-->
-
+<!--版权-->
+<DIV class=area>
+	<DIV class=nav-bottom>
+    <DIV class=company-info><A 
+style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: arial; FONT-SIZE: 14px; PADDING-TOP: 0px">&copy;</A> 
+      <A style="PADDING-LEFT: 0px">2013 亚稳材料数据库版权所有</A> <A 
+href="<?php echo U('help/about');?>">关于我们</A> | <A 
+href="<?php echo U('help/contact');?>">联系方法</A> | <A href="<?php echo U('help/privacy');?>">隐私政策</A> | <a href="<?php echo U('help/agreement');?>">用户条款</a>
+</DIV>
+  </DIV>
+</DIV>
 </body>
 </html>

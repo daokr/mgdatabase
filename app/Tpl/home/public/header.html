@@ -2,7 +2,7 @@
 <div class="ntes-passport-nav-bg" >
 <div class="ntes-passport-nav" >
         <div class="web-version">
-		<div ><a href="http://www.mgdatabase.com/">English Version</a></div>
+		<div ><a href="http://www.mgdatabase.com/">首页</a></div>
 		</div>
         <if condition="empty($visitor)">
         <div class="rightCon">
@@ -23,8 +23,8 @@
 <!-- 搜索 -->
      
 <div class="channel"> <div class="left"><a  href="__SITE_URL__"><img width="200" height="50" alt="亚稳材料数据库" src="__STATIC__/public/images/logo.jpg" border="0"></a></div>
-  <div class="left1"><a target="_blank" href="xwlist.htm">新闻</a> | <a href="qlist.htm" target="_blank">分类</a> 
-    | <a href="qxwlist.htm" target="_blank">文献</a> | <a href="qzlist.htm" target="_blank">求助</a> | <a href="gonggao.htm" target="_blank">公告：<MARQUEE DIRECTION=LEFT WIDTH=200 scrollamount=2>文字向左边滚动</MARQUEE></a></div>
+  <div class="left1"><a target="_blank" href="{:U('article/lists')}">新闻</a> | <a href="qlist.htm" target="_blank">分类</a> 
+    | <a href="{:U('doc/lists')}" target="_blank">文献</a> | <a href="{:U('qa/lists')}" target="_blank">求助</a> | <a href="gonggao.htm" target="_blank">公告：<MARQUEE DIRECTION=LEFT WIDTH=200 scrollamount=2>文字向左边滚动</MARQUEE></a></div>
   <span class="right "> 
 
 <div class="searcharea">
@@ -35,6 +35,4 @@
 </div>
 
   </span> </div>
-	<div class="channel1">
-	　
-	</div>
+	<div class="channel1">&nbsp;</div>

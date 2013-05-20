@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<include file="public:head" />
+</head>
+
+<body id="body">
+<include file="public:header" />
+<DIV class=area>
+  <DIV class=area-main>
+	<DIV >您的位置：<a href="http://www.mgdatabase.com/">首页</a> >>> 文献资料</DIV><br>
+    <DIV class="title-bar1">{$strDoc[doctitle]}</DIV>
+    <DIV><SPAN class="more1"><A href="{:U('doc/addnew',array('doctitle'=>$strDoc[doctitle]))}">+添加新卷</A></SPAN></DIV>
+    
+    <foreach name="arrdoc" item="item" >
+    <DIV class="list-item clearfix">
+      <DIV class=item-top> 
+      <SPAN class=time3>{$key+1}楼</SPAN> <SPAN class=time1>上传者：匿名</SPAN> 原作者：{$item[author]} <SPAN class=time1>添加时间：
+		<php>echo date('Y-m-d H:i',$item[addtime])</php>
+</SPAN> <SPAN class=time1><br>
+        <b>卷数：</b>第{$item[volume]}卷</SPAN> <br>
+        <SPAN class=time1><b>起始页码：</b>{$item[pagestart]}</SPAN> <br>
+        <SPAN class=time1><b>期刊名：</b>{$item[title]}</SPAN> <br>
+        <SPAN class=time1><b>年份：</b>{$item[datetime]}</SPAN> 年<br>
+        <SPAN class=time2><a href="{:U('doc/down',array('id'=>$item[id]))}" target="_blank">免费下载</a>　下载：{$item[downcount]} 人</SPAN></DIV>
+    </DIV>
+    </foreach>
+    
+    
+        
+  </DIV>
+  <!--添加入口-->
+  <DIV class=sub-col-6>
+  <include file="public:addmenu"/>
+  </div>
+  <!--最新添加-->
+  <DIV class=sub-col-6> </DIV>
+</div>
+
+<!--版权--> 
+<include file="public:footer" />
+</body>
+</html>

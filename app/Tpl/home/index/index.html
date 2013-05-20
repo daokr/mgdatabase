@@ -194,104 +194,96 @@ addLoadEvent(iFocusChange);
 <LI><A href="#">今日要闻今日要闻今日要闻今日要…</A></LI>
 <LI><A href="#">今日要闻今日要闻今日要闻今日要…</A></LI>
 </DIV>
-<br><br>
-	<DIV class="title-bar1"><A href="http://">元素分类1</A></DIV>
-	<DIV class="wz1">
-	<A href="sy.htm">metallic element(s)</A><SPAN 
-class=cLGray>|</SPAN><A href="sy.htm">metallic element(s)1</A><SPAN 
-class=cLGray>|</SPAN><A href="sy.htm">metallic element(s)1</A><SPAN 
-class=cLGray>|</SPAN><A href="sy.htm">metallic element(s)1</A><SPAN 
-class=cLGray>|</SPAN><A href="sy.htm">metallic element(s)1</A><SPAN 
-class=cLGray>|</SPAN><A href="sy.htm">metallic element(s)1</A><SPAN 
-class=cLGray>|</SPAN><A href="sy.htm">metallic element(s)1</A><SPAN 
-class=cLGray>|</SPAN><A href="sy.htm">metallic element(s)1</A><SPAN 
-class=cLGray>|</SPAN><A href="sy.htm">metallic element(s)1</A></DIV> 
+<br>
+<br>
+<foreach name="arrCate" item="item">
+<DIV class="title-bar1"><A href="http://">{$item[catename]}</A></DIV>
+<DIV class="wz1">
+	<foreach name="item[items]" item="stritem">
+    <A href="sy.htm">{$stritem[itemname]}</A><SPAN class=cLGray>|</SPAN>
+   		<foreach name="stritem[params]" item="param">
+        	{$param[paramname]}&nbsp;&nbsp;
+        </foreach>
+    <br>
+    </foreach>
+</DIV> 
 <DIV class="more"><A href="list.htm">查看全部 >>> </A> </DIV>
+</foreach>
+
+
+
 <SPAN class=blank20></SPAN>
-	<DIV class="title-bar1"><A href="http://">元素分类2</A></DIV>
-	<DIV class="wz1">
-	<A href="sy.htm">metallic element(s)</A><SPAN 
-class=cLGray>|</SPAN><A href="sy.htm">metallic element(s)1</A><SPAN 
-class=cLGray>|</SPAN><A href="sy.htm">metallic element(s)1</A><SPAN 
-class=cLGray>|</SPAN><A href="sy.htm">metallic element(s)1</A><SPAN 
-class=cLGray>|</SPAN><A href="sy.htm">metallic element(s)1</A><SPAN 
-class=cLGray>|</SPAN><A href="sy.htm">metallic element(s)1</A><SPAN 
-class=cLGray>|</SPAN><A href="sy.htm">metallic element(s)1</A><SPAN 
-class=cLGray>|</SPAN><A href="sy.htm">metallic element(s)1</A><SPAN 
-class=cLGray>|</SPAN><A href="sy.htm">metallic element(s)1</A></DIV> 
-<DIV class="more"><A href="list.htm">查看全部 >>> </A> </DIV>
-<SPAN class=blank20></SPAN>
-<DIV class="left"><DIV class="title-bar6"><SPAN class="bt"><A href="qxwlist.htm">文献资料</A></SPAN >
-<SPAN class="more"><A href="qxwlist.htm">更多</A></SPAN>
-<LI><A href="wxarticle.htm">《环球杂志》2012年第2期《我的新发现》</A></LI>
-<LI><A href="#">《环球杂志》2012年第2期《我的新发现》</A></LI>
-<LI><A href="#">《环球杂志》2012年第2期《我的新发现》</A></LI>
-<LI><A href="#">《环球杂志》2012年第2期《我的新发现》</A></LI>
-<LI><A href="#">《环球杂志》2012年第2期《我的新发现》</A></LI>
-<LI><A href="#">《环球杂志》2012年第2期《我的新发现》</A></LI>
-<LI><A href="#">《环球杂志》2012年第2期《我的新发现》</A></LI>
-<LI><A href="#">《环球杂志》2012年第2期《我的新发现》</A></LI>
-<LI><A href="#">《环球杂志》2012年第2期《我的新发现》</A></LI>
-</DIV></div>
-<DIV class="right"><DIV class="title-bar6"><SPAN class="bt"><A href="qzlist.htm">求助专区</A></SPAN >
+<DIV class="">
+<DIV class="title-bar6">
+<SPAN class="bt"><A href="qxwlist.htm">文献资料</A></SPAN >
+<SPAN class="more"><A href="{:U('doc/lists')}">更多</A></SPAN>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="table1">
+  <tr>
+    <th scope="col">期刊名称</th>
+    <th scope="col">卷号</th>
+    <th scope="col">年份</th>
+    <th scope="col">起始页码</th>
+    <th scope="col">作者</th>
+    <th scope="col">下载</th>
+  </tr>
+  <foreach name="arrdoc" item="item">
+  <tr>
+    <td><A href="{:U('doc/show',array('id'=>$item[id]))}" title="{$item[title]}">{$item[title]}</A></td>
+    <td>{$item[volume]}</td>
+    <td>{$item[datetime]}</td>
+    <td>{$item[pagestart]}</td>
+    <td>{$item[author]}</td>
+    <td>{$item[downcount]}</td>
+  </tr>
+</foreach>  
+</table>
+
+
+
+</DIV>
+</div>
+<DIV class=""><DIV class="title-bar6"><SPAN class="bt"><A href="qzlist.htm">求助专区</A></SPAN >
 <SPAN class="more"><A href="qzlist.htm">更多</A></SPAN>
-<LI><A href="qzarticle.htm">咨询一个实验过程</A></LI>
-<LI><A href="#">咨询一个实验过程</A></LI>
-<LI><A href="#">咨询一个实验过程</A></LI>
-<LI><A href="#">咨询一个实验过程</A></LI>
-<LI><A href="#">咨询一个实验过程</A></LI>
-<LI><A href="#">咨询一个实验过程</A></LI>
-<LI><A href="#">咨询一个实验过程</A></LI>
-<LI><A href="#">咨询一个实验过程</A></LI>
-<LI><A href="#">咨询一个实验过程</A></LI>
+<LI><span>3分钟前</span><A href="#">咨询一个实验过程</A><a href="#">[小麦]</a></LI>
+<LI><span>13分钟前</span><A href="#">床垫沙发竟成毒源，如何判断是否含"毒"？</A><a href="#">[小麦]</a></LI>
+<LI><span>44分钟前</span><A href="#">电脑启动得按DEL ， 然后就进入时间设置了 ， 这个怎么..</A><a href="#">[小麦]</a></LI>
+<LI><span>3分钟前</span><A href="#">咨询一个实验过程</A><a href="#">[小麦]</a></LI>
+<LI><span>13分钟前</span><A href="#">床垫沙发竟成毒源，如何判断是否含"毒"？</A><a href="#">[小麦]</a></LI>
+<LI><span>44分钟前</span><A href="#">电脑启动得按DEL ， 然后就进入时间设置了 ， 这个怎么..</A><a href="#">[小麦]</a></LI>
+<LI><span>3分钟前</span><A href="#">咨询一个实验过程</A><a href="#">[小麦]</a></LI>
+<LI><span>13分钟前</span><A href="#">床垫沙发竟成毒源，如何判断是否含"毒"？</A><a href="#">[小麦]</a></LI>
+<LI><span>44分钟前</span><A href="#">电脑启动得按DEL ， 然后就进入时间设置了 ， 这个怎么..</A><a href="#">[小麦]</a></LI>
 </DIV></div>
 </div>
 
 	
 		<!--添加入口-->
   <DIV class=sub-col-6> 
-  <table width="240" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-        <td><a href="{:U('exp/add')}" target="_blank"><img src="__STATIC__/public/images/tjsysj.jpg" width="240" height="34" border="0"></a></td>
-  </tr>
-  <tr>
-        <td><a href="{:U('doc/add')}" target="_blank"><img src="__STATIC__/public/images/tjwxzl.jpg" width="240" height="34" border="0"></a></td>
-  </tr>
-  <tr>
-        <td><a href="{:U('qa/add')}" target="_blank"><img src="__STATIC__/public/images/tjqzxx.jpg" width="240" height="34" border="0"></a></td>
-  </tr>
-</table>
+	<include file="public:addmenu"/>
   </div>
 		<!--最新添加-->
 <DIV class=sub-col-6>
 <DIV class=mod>
 <DIV class="news-column sline">
 <DIV class="title-bar ui-til2">
-<H2><A class=the-other-side 
-href="#">最新</A></H2><SPAN 
-class="more"><A 
-href="#">更多</A></SPAN></DIV>
+<H2><A class=the-other-side href="#">最新</A></H2><SPAN class="more"><A href="#">更多</A></SPAN></DIV>
+<foreach name="arrNewExp" item="item">
+<if condition="$key eq 0">
 <DIV class="mod-imgText imgText-widget-1 clearfix">
-<H3 class=main-title><A 
-href="#">metallic element(s)</A></H3>
-          <a 
-href="http://"><img src="__STATIC__/public/images/dengtu.jpg" 
-width=100 height=70 border="0"></a> 
-          <P>具有金属通性的元素。金属元素种类高达八十余种</P>
-        </DIV>
+<H3 class=main-title><A href="#">{$item[title]}</A></H3>
+<a href="http://"><img src="{$item[picfile]}" width=100 height=70 border="0"></a> 
+<P><php>echo getsubstrutf8 ( t ( $item ['content'] ), 0, 50 );</php></P>
+</DIV>
+</if>
+</foreach>
 <UL class="mod-list sub-list">
-  <LI><A 
-  href="#">inorganic nonmetallic materials</A> 
-  </LI>
-  <LI><A 
-  href="#">6C 14Si 32Ge 50Sn 82Pb </A> 
-  </LI>
-  <LI><A 
-  href="#">6C 14Si 32Ge 50Sn 82Pb </A> 
-  </LI>
-  <LI><A 
-  href="#">6C 14Si 32Ge 50Sn 82Pb </A> 
-  </LI></UL><SPAN class=blank9></SPAN></DIV>  
+<foreach name="arrNewExp" item="item">
+	<if condition="$key neq 0">
+  	<LI><A href="#">{$item[title]}</A></LI>
+    </if>
+</foreach>
+</UL>
+<SPAN class=blank9></SPAN></DIV>  
   <!--最热条目-->
 <DIV class="news-column sline">
 <DIV class="title-bar ui-til2">
@@ -326,64 +318,17 @@ href="#">更多</A></SPAN></DIV>
   <!--活跃用户-->
 <DIV class="news-column sline">
 <DIV class="title-bar ui-til2">
-<H2><A class=the-huo href="#">活跃用户</A></H2><SPAN 
-class="more readAll"><A 
-href="#">更多</A></SPAN></DIV>
+<H2><span class="the-huo">活跃用户</span></H2><SPAN 
+class="more readAll"></SPAN></DIV>
 <UL class="mod-list sub-list">
-  <LI><A 
-  href="#">吴澧</A>　提交5条 
-  </LI>
-  <LI><A 
-  href="#">周娅</A> 　提交4条
-  </LI>
-  <LI><A 
-  href="#">王涌</A> 　提交3条
-  </LI>
-    <LI><A 
-  href="#">周娅</A> 　提交3条
-  </LI>
-  <LI><A 
-  href="#">王涌</A> 　提交3条
-  </LI>
-    <LI><A 
-  href="#">周娅</A> 　提交2条
-  </LI>
-  <LI><A 
-  href="#">王涌</A> 　提交2条
-  </LI>
-  <LI><A 
-  href="#">王晓民</A>　提交2条 
-  </LI></UL><SPAN class=blank9></SPAN></DIV>
-    <!--帮助-->
-<DIV class="news-column sline">
-<DIV class="title-bar ui-til2">
-<H2><A class=the-bang href="#">帮助</A></H2><SPAN 
-class="more readAll"><A 
-href="#">更多</A></SPAN></DIV>
-<UL class="mod-list sub-list">
-          <LI><A 
-  href="#">如何注册？</A> </LI>
-  <LI><A 
-  href="#">如何找回密码？</A> 
-  </LI>
-  <LI><A 
-  href="#">如何添加新条目？</A> 
-  </LI>
-    <LI><A 
-  href="#">下载积分如何赚取？</A> 
-  </LI>
-  <LI><A 
-  href="#">如何购买积分？</A> 
-  </LI>
-    <LI><A 
-  href="#">如何购买积分？</A> 
-  </LI>
-  <LI><A 
-  href="#">如何购买积分？</A> 
-  </LI>
-  <LI><A 
-  href="#">如何购买积分？</A> 
-  </LI></UL></DIV> 
+<foreach name="arrHotUser" item="item">
+  <LI><A href="#">{$item[username]}</A>　提交5条 </LI>
+</foreach>  
+</UL>
+<SPAN class=blank9></SPAN>
+</DIV>
+
+ 
   </DIV> 
   </DIV>
 

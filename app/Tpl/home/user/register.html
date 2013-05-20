@@ -28,9 +28,9 @@ obj.src = $(obj).attr('url') + '&nowtime=' + new Date().getTime();
       </TR>
       <TBODY> 
       <TR> 
-        <TD class=col1 align=right>Email</TD>
+        <TD class=col1 align=right>用户名</TD>
         <TD class=col2>*</TD>
-        <TD class=col34 colSpan=2> <INPUT class="input grayInput" onblur=checkEmail() onclick=showEmailTips() maxLength=32 name="email">
+        <TD class=col34 colSpan=2> <INPUT class="input grayInput" onblur=checkEmail() onclick=showEmailTips() maxLength=32 name="username">
          
         </TD>
         <TD class=col5 id=usernameTips></TD>
@@ -61,11 +61,11 @@ obj.src = $(obj).attr('url') + '&nowtime=' + new Date().getTime();
         <TD class=col5 id=passwordConfirmTips></TD>
       </TR>
       <TR> 
-        <TD class=col1>用户名</TD>
+        <TD class=col1>电子邮箱</TD>
         <TD class=col2>*</TD>
         <TD class=col34 colSpan=2> 
            <INPUT class="input grayInput" 
-      onblur=checkUsername() onfocus=showUsernameTips() maxLength=32 name=username>
+      onblur=checkUsername() onfocus=showUsernameTips() maxLength=32 name=email>
         </TD>
         <TD colspan="2" ></TD>
       </TR>

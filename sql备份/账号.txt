@@ -1,0 +1,17 @@
+gd:charm_888 W
+
+ftp:mgdatabase
+p: Wanglijun123!
+
+http://mgt.dns.com.cn/
+Íõ½¨¹ú 9:15:10 
+ÃÜÂë£ºMHA7fvJ9nD
+
+
+mysql
+
+ mgdata
+
+user:mgdatabase
+
+pwd:Mgdatabase123!

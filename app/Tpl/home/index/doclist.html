@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<include file="public:head" />
+</head>
+
+<body id="body">
+<include file="public:header" />
+<DIV class=area>
+  <DIV class=area-main>
+  <foreach name="arrdoc" item="item">
+    <DIV class="list-item clearfix">
+      <DIV class=item-top>
+        <H2><A href="{:U('doc/show',array('id'=>$item[id]))}">{$item[doctitle]}</A></H2>
+        <P>第{$item[volume]}卷 作者：{$item[author]} 年份：<php>echo date('Y年',$item[addtime])</php> 起始页码：{$item[pagestart]}</P>
+      </DIV>
+    </DIV>
+ </foreach>   
+    <!--翻页--> 
+    <SPAN class=blank20></SPAN>
+    <div class="page">{$pageUrl}</div>
+    
+    </div>
+  <!--添加入口-->
+  <DIV class=sub-col-6>
+  <include file="public:addmenu"/>
+  </div>
+  <!--最新添加-->
+  <DIV class=sub-col-6> </DIV>
+</div>
+
+<!--版权--> 
+<include file="public:footer" />
+</body>
+</html>

@@ -1,0 +1,30 @@
+[ 2013-05-04T23:01:54+08:00 ] 199.21.99.86 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.011219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011364s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.058343s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:68.979513s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.362818s ]
+SQL: SHOW COLUMNS FROM `ik_doc` [ RunTime:0.882302s ]
+SQL: SELECT * FROM `ik_doc` ORDER BY addtime desc LIMIT 10   [ RunTime:1.565000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.037057s ]
+INFO: [ view_template ] --END-- [ RunTime:0.037248s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.152674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.152811s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.007590s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002134s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002002s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.008870s ]
+INFO: Run content_replace Behavior [ RunTime:0.016747s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037728s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002878s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003045s ]
+

@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6 { font-size:12px; font-weight:normal; }
 .area-main2 { WIDTH: 1000px; FLOAT: left;height: 100px;padding: 5px;}
 .h7 { FONT-WEIGHT: bold;text-decoration:none;FONT-SIZE: 15px; COLOR: #498EB7;PADDING-top: 30px;}
 .content { PADDING-RIGHT: 0px; PADDING-LEFT: 90px; PADDING-BOTTOM: 45px; PADDING-TOP: 45px}
-.col1 { FONT-SIZE: 14px; VERTICAL-ALIGN: top; WIDTH: 90px; TEXT-ALIGN: right;PADDING-top: 13px;}
+.col1 { FONT-SIZE: 14px;  WIDTH: 90px; TEXT-ALIGN: right;}
 .col2 { WIDTH: 16px; COLOR: #cc0000; TEXT-ALIGN: center;PADDING-top: 3px;}
 .col6 { COLOR: #cc0000; TEXT-ALIGN: center;PADDING-top: 3px;}
 .col34 {HEIGHT: 40px;}

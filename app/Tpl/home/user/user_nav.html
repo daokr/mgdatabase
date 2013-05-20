@@ -1,0 +1,22 @@
+<!--导航-->
+<DIV class="nav-channel clearfix">
+<DIV class=nav>
+<DIV class=nav-blue>
+<foreach name="menu" item="item">
+<if condition="$key eq 'baseinfo'">
+	<if condition="$key eq $type">
+	<A class="first current" href="{$item[url]}">{$item[text]}</A> 
+    <else/>
+    <A class="first" href="{$item[url]}">{$item[text]}</A> 
+    </if>
+<else/>
+	<if condition="$key eq $type">
+	<A class="current" href="{$item[url]}">{$item[text]}</A> 
+    <else/>
+    <A class="" href="{$item[url]}">{$item[text]}</A> 
+    </if>
+</if>
+</foreach>
+</DIV>
+</DIV>
+</DIV>

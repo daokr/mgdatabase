@@ -1,0 +1,108 @@
+[ 2013-05-01T00:04:24+08:00 ] 96.227.124.38 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.015560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015782s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.015965s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000635s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.012218s ]
+INFO: [ view_template ] --END-- [ RunTime:0.012425s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.087324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087485s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.008251s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001981s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001884s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002262s ]
+INFO: Run content_replace Behavior [ RunTime:0.021110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.035841s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.005208s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005297s ]
+
+[ 2013-05-01T08:03:26+08:00 ] 157.55.32.188 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.025571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025840s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.017426s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000562s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.025930s ]
+INFO: [ view_template ] --END-- [ RunTime:0.026099s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.147802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.147935s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.011375s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003345s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001959s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002305s ]
+INFO: Run content_replace Behavior [ RunTime:0.014853s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.034250s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002328s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002415s ]
+
+[ 2013-05-01T16:41:31+08:00 ] 64.246.165.10 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.021385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021653s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.441426s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.270729s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.032444s ]
+INFO: [ view_template ] --END-- [ RunTime:0.032748s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.165129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.165342s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.009038s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002094s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001996s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.009878s ]
+INFO: Run content_replace Behavior [ RunTime:0.031036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.054505s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002343s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002450s ]
+
+[ 2013-05-01T20:06:25+08:00 ] 180.76.5.87 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.011333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011614s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.051277s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.005798s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.011042s ]
+INFO: [ view_template ] --END-- [ RunTime:0.011187s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.129268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.129419s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.023611s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004338s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001682s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002079s ]
+INFO: Run content_replace Behavior [ RunTime:0.033846s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.065924s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003058s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003160s ]
+

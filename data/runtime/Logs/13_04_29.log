@@ -1,0 +1,54 @@
+[ 2013-04-29T11:55:27+08:00 ] 199.21.99.86 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.015297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015474s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.013934s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.002163s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.010138s ]
+INFO: [ view_template ] --END-- [ RunTime:0.010287s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.125742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125884s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002794s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001484s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001787s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002165s ]
+INFO: Run content_replace Behavior [ RunTime:0.032122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.040719s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004852s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004946s ]
+
+[ 2013-04-29T18:41:36+08:00 ] 60.171.124.70 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.027804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037808s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.014200s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:67.457926s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.008632s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008824s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.080221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080371s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.008739s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002480s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002100s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.009221s ]
+INFO: Run content_replace Behavior [ RunTime:0.006998s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029900s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002355s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002449s ]
+

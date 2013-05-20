@@ -1,0 +1,362 @@
+[ 2013-05-05T02:38:20+08:00 ] 199.21.99.86 /index.php/exp/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.029155s ]
+INFO: [ route_check ] --END-- [ RunTime:0.029301s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002019s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.025997s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000784s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002548s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002651s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.065719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065864s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004077s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001763s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001655s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001904s ]
+INFO: Run content_replace Behavior [ RunTime:0.008203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017930s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002199s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002285s ]
+
+[ 2013-05-05T08:44:51+08:00 ] 199.21.99.86 /index.php/doc/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002648s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002837s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002041s ]
+NOTIC: [2048] Declaration of docAction::show() should be compatible with that of Action::show() /var/www/vhosts/mgdatabase.com/httpdocs/app/Lib/Action/home/docAction.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.015702s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000757s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.034245s ]
+SQL: SHOW COLUMNS FROM `ik_doc` [ RunTime:0.034748s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.047110s ]
+INFO: [ view_template ] --END-- [ RunTime:0.047363s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: result /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/1839313cba7db182fc872c9743e0e2b7.php 第 87 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.067459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067580s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001245s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001319s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000994s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001173s ]
+INFO: Run content_replace Behavior [ RunTime:0.001755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006818s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002637s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002721s ]
+
+[ 2013-05-05T17:33:42+08:00 ] 60.171.124.70 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.031098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031270s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.013960s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.002160s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.042239s ]
+SQL: SHOW COLUMNS FROM `ik_doc` [ RunTime:0.028459s ]
+SQL: SELECT * FROM `ik_doc` ORDER BY addtime desc LIMIT 10   [ RunTime:0.086443s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.030869s ]
+INFO: [ view_template ] --END-- [ RunTime:0.031030s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.097892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098022s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.006429s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001969s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001581s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004767s ]
+INFO: Run content_replace Behavior [ RunTime:0.015606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.030688s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003261s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003381s ]
+
+[ 2013-05-05T17:33:58+08:00 ] 60.171.124.70 /index.php/user/index/id/2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001363s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001486s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.015599s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '2' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000576s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '2' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.017077s ]
+SQL: SELECT * FROM `ik_user` WHERE ( `userid` = 2 ) LIMIT 1   [ RunTime:0.011589s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.008221s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008322s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/63161186a61ee4d9810f01ddb00c1c77.php 第 42 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/63161186a61ee4d9810f01ddb00c1c77.php 第 69 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.018259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018339s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001012s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000943s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000859s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000972s ]
+INFO: Run content_replace Behavior [ RunTime:0.001462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005532s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001086s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001164s ]
+
+[ 2013-05-05T17:34:14+08:00 ] 60.171.124.70 /index.php/user/index/id/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001495s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001621s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001497s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.032892s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '2' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000488s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '2' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.008961s ]
+SQL: SELECT * FROM `ik_user` WHERE ( `userid` = 2 ) LIMIT 1   [ RunTime:0.006596s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001368s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001456s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/63161186a61ee4d9810f01ddb00c1c77.php 第 42 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/63161186a61ee4d9810f01ddb00c1c77.php 第 69 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.013748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013854s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001005s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000934s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000826s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001004s ]
+INFO: Run content_replace Behavior [ RunTime:0.001517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005575s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001119s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001197s ]
+
+[ 2013-05-05T17:34:42+08:00 ] 60.171.124.70 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.015269s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '2' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000541s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '2' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.009364s ]
+SQL: SHOW COLUMNS FROM `ik_doc` [ RunTime:0.013740s ]
+SQL: SELECT * FROM `ik_doc` ORDER BY addtime desc LIMIT 10   [ RunTime:0.007388s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001467s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001558s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 184 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.019947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020029s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001124s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001016s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000903s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001101s ]
+INFO: Run content_replace Behavior [ RunTime:0.001678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006116s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001158s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001238s ]
+
+[ 2013-05-05T17:34:53+08:00 ] 60.171.124.70 /index.php/user/index/id/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001454s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001579s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.020686s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '2' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000551s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '2' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.012122s ]
+SQL: SELECT * FROM `ik_user` WHERE ( `userid` = 2 ) LIMIT 1   [ RunTime:0.009141s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001369s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001460s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/63161186a61ee4d9810f01ddb00c1c77.php 第 42 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/63161186a61ee4d9810f01ddb00c1c77.php 第 69 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.014464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014547s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001016s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000926s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000906s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000995s ]
+INFO: Run content_replace Behavior [ RunTime:0.001551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005679s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001142s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001220s ]
+
+[ 2013-05-05T17:35:01+08:00 ] 60.171.124.70 /index.php/doc/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002424s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002665s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002300s ]
+NOTIC: [2048] Declaration of docAction::show() should be compatible with that of Action::show() /var/www/vhosts/mgdatabase.com/httpdocs/app/Lib/Action/home/docAction.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.014057s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '2' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.004699s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '2' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.008345s ]
+SQL: SHOW COLUMNS FROM `ik_doc` [ RunTime:0.009431s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007667s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007822s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/1839313cba7db182fc872c9743e0e2b7.php 第 42 行.
+NOTIC: [8] Undefined variable: result /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/1839313cba7db182fc872c9743e0e2b7.php 第 87 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.030858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001225s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001197s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000960s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001142s ]
+INFO: Run content_replace Behavior [ RunTime:0.002040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006886s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001413s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001519s ]
+
+[ 2013-05-05T17:35:07+08:00 ] 60.171.124.70 /index.php/doc/addnew
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001394s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001525s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+NOTIC: [2048] Declaration of docAction::show() should be compatible with that of Action::show() /var/www/vhosts/mgdatabase.com/httpdocs/app/Lib/Action/home/docAction.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.017426s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '2' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000531s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '2' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.009330s ]
+SQL: SHOW COLUMNS FROM `ik_doc` [ RunTime:0.012793s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001509s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001599s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/09a381603214941bded8e570a76c5116.php 第 43 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.021961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022049s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001009s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000990s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000897s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001049s ]
+INFO: Run content_replace Behavior [ RunTime:0.001626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005839s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001245s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001361s ]
+
+[ 2013-05-05T17:39:43+08:00 ] 60.171.124.70 /index.php/user/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001449s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001604s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001340s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.017973s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '2' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000486s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '2' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.010883s ]
+SQL: SELECT * FROM `ik_user` WHERE ( `userid` = 2 ) LIMIT 1   [ RunTime:0.008134s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001452s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001541s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/63161186a61ee4d9810f01ddb00c1c77.php 第 42 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/63161186a61ee4d9810f01ddb00c1c77.php 第 69 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.014968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015046s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000966s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000994s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000839s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000981s ]
+INFO: Run content_replace Behavior [ RunTime:0.001456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005508s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001110s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001190s ]
+
+[ 2013-05-05T17:39:55+08:00 ] ERR: (ThinkException) 无法加载模块:experiment
+[ 2013-05-05T17:40:00+08:00 ] ERR: (ThinkException) 无法加载模块:comment
+[ 2013-05-05T19:42:43+08:00 ] 60.171.124.70 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.013736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013913s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.015725s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000736s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.009644s ]
+SQL: SHOW COLUMNS FROM `ik_doc` [ RunTime:0.012453s ]
+SQL: SELECT * FROM `ik_doc` ORDER BY addtime desc LIMIT 10   [ RunTime:0.000999s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.011024s ]
+INFO: [ view_template ] --END-- [ RunTime:0.011172s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.309035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.309170s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.013810s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002445s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001414s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001583s ]
+INFO: Run content_replace Behavior [ RunTime:0.008889s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028564s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.011335s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011539s ]
+

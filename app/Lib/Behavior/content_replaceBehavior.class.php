@@ -22,7 +22,7 @@ class content_replaceBehavior extends Behavior {
         //附件地址
         $replace['__UPLOAD__'] = __ROOT__.'/data/upload';
         //网站地址 带 / 如：http://www.ikphp.com/
-        $replace['__SITE_URL__'] = __ROOT__;
+        $replace['__SITE_URL__'] = C('ik_site_url');
         //网站基本风格
         $basecss = '/static/public/css/base.css';
         //开始替换css

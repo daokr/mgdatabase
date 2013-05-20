@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<include file="public:head" />
+</head>
+
+<body id="body">
+<include file="public:header" />
+
+<div class=area>
+	<div class=area-main>
+		<div >您的位置：<a href="http://www.mgdatabase.com/">首页</a> >>> 添加实验数据</div>
+<DIV class=content>
+      <TABLE style="FONT-SIZE: 14px" cellSpacing=0 cellPadding=0 border=0>
+        <TR> 
+          <TD class="biaoge11">请输入您要添加的文献资料名称</TD>
+        </TR>
+        <TBODY> 
+        <TR> 
+          <TD> 
+            <div class="searcharea"> 
+              <form method="post" action="{:U('search/all',array('type'=>'doc'))}" id="searchForm">
+                <input type="text" name="keyword" placeholder="文献资料名称" value=""/>
+                <button onClick="$('#searchForm').submit()">搜索</button> 
+              </form>
+            </div>
+          </TD>
+        </TR>
+        <TR>
+          <TD>&nbsp;</TD>
+        </TR>
+        <if condition="$result">
+        <foreach name="result" item="item">
+        <TR> 
+          <TD  class="biaoge11">·已有文献资料：<a href="{:U('doc/addnew',array('doctitle'=>$item[doctitle]))}">{$item[doctitle]}</a>（请直接点击名称进入添加页）；<br></TD>
+        </TR>
+        </foreach>
+        <else/>
+        <TR> 
+          <TD  class="biaoge11">·未找到相关文献资料，请直接<a href="{:U('doc/addnew')}">添加</a>新文献资料</TD>
+        </TR>        
+        </if>
+        </TBODY> 
+      </TABLE>
+</DIV>  
+
+	</div>
+</div>
+
+<include file="public:footer" />
+</body>
+</html>

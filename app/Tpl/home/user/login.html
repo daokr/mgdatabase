@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<include file="public:head" />
+</head>
+
+<body id="body">
+<script language="javascript">
+function newgdcode(obj) {
+obj.src = $(obj).attr('url') + '&nowtime=' + new Date().getTime();
+//后面传递一个随机参数，否则在IE7和火狐下，不刷新图片
+}
+</script>
+<!--注册-->
+<include file="public:header" />
+	<DIV class=area>
+  	<DIV class=area-main2>
+	<DIV class="title-bar1"><SPAN class="h7">欢迎登录"亚稳材料数据库"</SPAN></DIV>
+
+<DIV class=content>
+<form action="{:U('user/login')}" method="post">
+    <TABLE style="FONT-SIZE: 14px" cellSpacing=0 cellPadding=0 border=0>
+      <TR>
+        <TD >&nbsp;</TD>
+        <TD >&nbsp;</TD>
+        <TD >&nbsp;</TD>
+        <TD class=col6></TD>
+      </TR>
+      <TBODY> 
+      <TR> 
+        <TD class=col1 align=right>用户名</TD>
+        <TD class=col2>*</TD>
+        <TD class=col34 colSpan=2> <INPUT class="input grayInput" onblur=checkEmail() onclick=showEmailTips() maxLength=32 name="username">
+         
+        </TD>
+        <TD class=col5 id=usernameTips></TD>
+      </TR>
+      <TR> 
+        <TD class=col1>登录密码</TD>
+        <TD class=col2>*</TD>
+        <TD class=col34 colSpan=2> 
+          <INPUT class="input grayInput" 
+      onblur=checkPassword() onclick=showPassportTips() type=password 
+      maxLength=18 name=password>
+        </TD>
+        <TD class=col5 id=passwordTips></TD>
+      </TR>
+   
+      <TR> 
+        <TD class=col1>验证码</TD>
+        <TD class=col2>*</TD>
+        <TD class=col3> 
+          <INPUT class="inputA grayInputA" onblur=checkCaptcha() 
+      onclick=showCaptchaTips() maxLength=10 name=authcode>
+        </TD>
+        <TD class=col4><img src="{:U('captcha/'.time())}" url="{:U('captcha/'.time())}" onclick="javascript:newgdcode(this);" alt="点击刷新验证码" style="cursor:pointer; margin-left:5px; float:left;" align="absmiddle"/></TD>
+        <TD class=col5></TD>
+      </TR>
+      <TR> 
+        <TD class=col1>&nbsp;</TD>
+        <TD class=col2>&nbsp;</TD>
+        <TD class=col34 colSpan=2> 
+          <INPUT class=regbut id=submitButton style="BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none" type=submit value=会员登录>
+        </TD>
+        <TD class=col5>&nbsp;</TD>
+      </TR>
+      </TBODY> 
+    </TABLE>
+    </form>
+  </DIV>
+  </DIV>
+  </DIV>
+  <!--版权-->
+<include file="public:footer" />
+</body>
+</html>

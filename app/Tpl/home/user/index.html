@@ -6,56 +6,62 @@
 
 <body id="body">
 <include file="public:header" />
-
+<include file="user_nav" />
 <DIV class=area>
-<!--资料-->
   	<DIV class=area-main2>
-	<DIV class="title-bar1"><SPAN 
-  class="h7">{$user[username]}个人中心</SPAN></DIV>
+	<DIV class="title-bar1"><SPAN class="h7">{$user[username]}个人中心</SPAN></DIV>
 	
 <DIV class=content>
-      <TABLE style="FONT-SIZE: 14px" cellSpacing=0 cellPadding=0 border=0>
-        <TBODY> 
-        <TR> 
-          <TD class=col1 align=right>添加数据：</TD>
-          <TD class=col2> </TD>
-          <TD class=col34 colSpan=2> <a href="tsy.htm" target="_blank">2</a>条</TD>
-        </TR>
-        <TR> 
-          <TD class=col1>发表评论：</TD>
-          <TD class=col2> </TD>
-          <TD class=col34 colSpan=2> <a href="tpl.htm" target="_blank">1</a>条 
-          </TD>
-        </TR>
-        <TR>
-          <TD class=col1>添加文献：</TD>
-          <TD class=col2></TD>
-          <td class=col34 style="FONT-SIZE: 12px" colspan=2><a href="twx.htm" target="_blank">2</a>条</td>
-        </TR>
-        <TR> 
-          <TD class=col1>添加求助：</TD>
-          <TD class=col2></TD>
-          <td class=col34 style="FONT-SIZE: 12px" colspan=2><a href="tqz.htm" target="_blank">2</a>条</td>
-        </TR>
-        <TR> 
-          <TD class=col1>现居住地：</TD>
-          <TD class=col2> </TD>
-          <td class=col34 style="FONT-SIZE: 12px" colspan=2>北京 </td>
-        </TR>
-        <TR> 
-          <TD class=col1>&nbsp;</TD>
-          <TD class=col2>&nbsp;</TD>
-          <TD class=col34 style="FONT-SIZE: 12px" colSpan=2>&nbsp; </TD>
-        </TR>
-        <TR> 
-          <TD class=col1>&nbsp;</TD>
-          <TD class=col2>&nbsp;</TD>
-          <TD class=col34 colSpan=2>&nbsp; </TD>
-        </TR>
-        </TBODY> 
-      </TABLE>
+	<form action="{:U('user/index',array('type'=>$type))}" method="post">
+    <TABLE style="FONT-SIZE: 14px" cellSpacing=0 cellPadding=0 border=0>
+      <TBODY> 
+      <TR> 
+        <TD class=col1 align=right>用户名：</TD>
+        <TD class=col2> </TD>
+        <TD class=col34 colSpan=2>{$user[username]}</TD>
+        <TD class=col5 id=usernameTips></TD>
+      </TR>
+      <TR> 
+        <TD class=col1>邮箱：</TD>
+        <TD class=col2> </TD>
+        <TD class=col34 colSpan=2> 
+          <input type="text" class="input grayInput"  name="email" value="{$user[email]}">
+        </TD>
+        <TD class=col5 id=passwordTips></TD>
+      </TR>
+      <TR> 
+        <TD class=col1>注册时间：</TD>
+        <TD class=col2> </TD>
+        <TD class=col34 colSpan=2><php>echo date('Y-m-d',$user[addtime]);</php></TD>
+        <TD class=col5 id=emailTips></TD>
+      </TR>
+      <TR> 
+        <TD class=col1>现居住地：</TD>
+        <TD class=col2> </TD>
+        <TD class=col3> 
+          <INPUT class="inputA grayInputA" name="address" value="{$user[address]}">
+        </TD>
+        <TD class=col4>&nbsp;</TD>
+        <TD class=col5></TD>
+      </TR>
+      <TR> 
+        <TD class=col1>&nbsp;</TD>
+        <TD class=col2>&nbsp;</TD>
+        <TD class=col34 style="FONT-SIZE: 12px" colSpan=2>&nbsp; </TD>
+        <TD class=col5 id=clauseTips></TD>
+      </TR>
+      <TR> 
+        <TD class=col1>&nbsp;</TD>
+        <TD class=col2>&nbsp;</TD>
+        <TD class=col34 colSpan=2> 
+          <INPUT class=regbut id=submitButton style="BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none" type=submit value=提交修改>
+        </TD>
+        <TD class=col5>&nbsp;</TD>
+      </TR>
+      </TBODY> 
+    </TABLE>
+    </form>
   </DIV>
-
 </div>
 </div>
 

@@ -1,0 +1,2350 @@
+[ 2013-05-07T11:43:26+08:00 ] 124.193.183.18 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.013081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013361s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.036993s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.008443s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.078160s ]
+SQL: SHOW COLUMNS FROM `ik_doc` [ RunTime:0.079226s ]
+SQL: SHOW COLUMNS FROM `ik_exp` [ RunTime:0.147015s ]
+ERR: Table 'ikcharm_mgdatabase.ik_exp' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_exp`
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.109865s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.114168s ]
+SQL: SHOW COLUMNS FROM `ik_param` [ RunTime:0.184425s ]
+ERR: Table 'ikcharm_mgdatabase.ik_param' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_param`
+SQL: SELECT * FROM `ik_doc` ORDER BY addtime desc LIMIT 10   [ RunTime:0.041418s ]
+SQL: SELECT * FROM `ik_cate`  [ RunTime:0.035311s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '1' )  [ RunTime:0.025233s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = '1' )  [ RunTime:0.025364s ]
+ERR: Table 'ikcharm_mgdatabase.ik_param' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `ik_param` WHERE ( `itemid` = '1' ) 
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '2' )  [ RunTime:0.005913s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = '2' )  [ RunTime:0.005160s ]
+ERR: Table 'ikcharm_mgdatabase.ik_param' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `ik_param` WHERE ( `itemid` = '2' ) 
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '4' )  [ RunTime:0.005299s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = '3' )  [ RunTime:0.019271s ]
+ERR: Table 'ikcharm_mgdatabase.ik_param' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `ik_param` WHERE ( `itemid` = '3' ) 
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002813s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 280 行.
+NOTIC: [8] Use of undefined constant doctitle - assumed 'doctitle' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 280 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 280 行.
+NOTIC: [8] Use of undefined constant volume - assumed 'volume' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 280 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 280 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 280 行.
+NOTIC: [8] Use of undefined constant doctitle - assumed 'doctitle' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 280 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 280 行.
+NOTIC: [8] Use of undefined constant volume - assumed 'volume' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 280 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 280 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.119303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.119418s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.009169s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002146s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001722s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001929s ]
+INFO: Run content_replace Behavior [ RunTime:0.008118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.023401s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002452s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002541s ]
+
+[ 2013-05-07T11:44:20+08:00 ] 124.193.183.18 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002104s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.034369s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000780s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.023416s ]
+SQL: SHOW COLUMNS FROM `ik_doc` [ RunTime:0.034614s ]
+SQL: SHOW COLUMNS FROM `ik_exp` [ RunTime:0.030021s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.029392s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.068565s ]
+SQL: SHOW COLUMNS FROM `ik_param` [ RunTime:0.049475s ]
+SQL: SELECT * FROM `ik_doc` ORDER BY addtime desc LIMIT 10   [ RunTime:0.055791s ]
+SQL: SELECT * FROM `ik_cate`  [ RunTime:0.007308s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '1' )  [ RunTime:0.004378s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 1 )  [ RunTime:0.027152s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '2' )  [ RunTime:0.001609s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 2 )  [ RunTime:0.003394s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '4' )  [ RunTime:0.027343s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 3 )  [ RunTime:0.004710s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001844s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001951s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant doctitle - assumed 'doctitle' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant volume - assumed 'volume' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant doctitle - assumed 'doctitle' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant volume - assumed 'volume' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.030895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031022s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001318s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001116s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001143s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001582s ]
+INFO: Run content_replace Behavior [ RunTime:0.003169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008722s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002115s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002294s ]
+
+[ 2013-05-07T11:44:58+08:00 ] 124.193.183.18 /index.php/user/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001629s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001752s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.027223s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.001369s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.018264s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001709s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001804s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.016721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016836s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001121s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001101s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000982s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001171s ]
+INFO: Run content_replace Behavior [ RunTime:0.001791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006502s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001439s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001557s ]
+
+[ 2013-05-07T11:44:59+08:00 ] 124.193.183.18 /index.php/captcha/1367898298
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001690s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001894s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001573s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.082747s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000961s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+NOTIC: [8] Undefined index: width /var/www/vhosts/mgdatabase.com/httpdocs/app/Lib/ORG/Captcha.class.php 第 28 行.
+NOTIC: [8] Undefined index: height /var/www/vhosts/mgdatabase.com/httpdocs/app/Lib/ORG/Captcha.class.php 第 29 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/vhosts/mgdatabase.com/httpdocs/app/Lib/ORG/Captcha.class.php 第 42 行.
+
+[ 2013-05-07T11:45:05+08:00 ] 124.193.183.18 /index.php/index/index/id/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001677s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001969s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001477s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.010751s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.155747s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.009948s ]
+SQL: SHOW COLUMNS FROM `ik_doc` [ RunTime:0.013496s ]
+SQL: SHOW COLUMNS FROM `ik_exp` [ RunTime:0.043007s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.040742s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.032664s ]
+SQL: SHOW COLUMNS FROM `ik_param` [ RunTime:0.013586s ]
+SQL: SELECT * FROM `ik_doc` ORDER BY addtime desc LIMIT 10   [ RunTime:0.033817s ]
+SQL: SELECT * FROM `ik_cate`  [ RunTime:0.002385s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '1' )  [ RunTime:0.005189s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 1 )  [ RunTime:0.001385s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '2' )  [ RunTime:0.003951s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 2 )  [ RunTime:0.010514s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '4' )  [ RunTime:0.001472s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 3 )  [ RunTime:0.005359s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002460s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002601s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 184 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant doctitle - assumed 'doctitle' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant volume - assumed 'volume' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant doctitle - assumed 'doctitle' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant volume - assumed 'volume' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.032063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032204s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001428s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001113s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001013s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001323s ]
+INFO: Run content_replace Behavior [ RunTime:0.002024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007248s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001359s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001470s ]
+
+[ 2013-05-07T11:45:14+08:00 ] 124.193.183.18 /index.php/exp/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001490s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001624s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.015085s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000662s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.008649s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.013963s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.010561s ]
+SQL: SHOW COLUMNS FROM `ik_exp` [ RunTime:0.012195s ]
+SQL: SHOW COLUMNS FROM `ik_param` [ RunTime:0.011284s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001783s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001920s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/29603e7a119376ed35ebf1f6a7b12cd1.php 第 42 行.
+NOTIC: [8] Undefined variable: result /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/29603e7a119376ed35ebf1f6a7b12cd1.php 第 85 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.019814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020026s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001167s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001247s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000995s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001202s ]
+INFO: Run content_replace Behavior [ RunTime:0.001876s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006816s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001583s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001691s ]
+
+[ 2013-05-07T11:45:17+08:00 ] 124.193.183.18 /index.php/exp/addnew
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002017s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002387s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001466s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.013887s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.002232s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.020872s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.011522s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.012022s ]
+SQL: SHOW COLUMNS FROM `ik_exp` [ RunTime:0.014311s ]
+SQL: SHOW COLUMNS FROM `ik_param` [ RunTime:0.043718s ]
+SQL: SELECT * FROM `ik_cate`  [ RunTime:0.015403s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '1' )  [ RunTime:0.000976s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '2' )  [ RunTime:0.001911s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '4' )  [ RunTime:0.000600s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001940s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002075s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/64a03e5d33636924f4b044402d0d5cc9.php 第 42 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.019729s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019873s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001285s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001103s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001065s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001392s ]
+INFO: Run content_replace Behavior [ RunTime:0.002072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007285s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001320s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001421s ]
+
+[ 2013-05-07T11:46:03+08:00 ] 124.193.183.18 /index.php/exp/addnew
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002362s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002665s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.030462s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.002183s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.017472s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.021038s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.040243s ]
+SQL: SHOW COLUMNS FROM `ik_exp` [ RunTime:0.032140s ]
+SQL: SHOW COLUMNS FROM `ik_param` [ RunTime:0.019890s ]
+SQL: SELECT * FROM `ik_cate`  [ RunTime:0.016955s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '1' )  [ RunTime:0.000824s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '2' )  [ RunTime:0.001151s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '4' )  [ RunTime:0.000734s ]
+SQL: SELECT * FROM `ik_exp` WHERE ( `title` = '测试熟料' ) LIMIT 1   [ RunTime:0.004816s ]
+SQL: INSERT INTO `ik_exp` (`userid`,`title`,`itemid`,`isoriginal`,`author`,`content`,`addtime`) VALUES (1,'测试熟料',2,1,'小麦','测试',1367898362) [ RunTime:0.002508s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_param` WHERE ( `paramname` = '中国' ) LIMIT 1   [ RunTime:0.000760s ]
+SQL: INSERT INTO `ik_param` (`paramname`,`itemid`) VALUES ('中国',2) [ RunTime:0.006157s ]
+SQL: SHOW COLUMNS FROM `ik_param_exp` [ RunTime:0.012304s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_param_exp` WHERE ( `paramid` = 1 ) LIMIT 1   [ RunTime:0.011135s ]
+SQL: INSERT INTO `ik_param_exp` (`expid`,`paramid`) VALUES (1,1) [ RunTime:0.003663s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_param` WHERE ( `paramname` = '美国' ) LIMIT 1   [ RunTime:0.001358s ]
+SQL: INSERT INTO `ik_param` (`paramname`,`itemid`) VALUES ('美国',2) [ RunTime:0.006825s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_param_exp` WHERE ( `paramid` = 2 ) LIMIT 1   [ RunTime:0.000709s ]
+SQL: INSERT INTO `ik_param_exp` (`expid`,`paramid`) VALUES (1,2) [ RunTime:0.004947s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_param` WHERE ( `paramname` = '日本' ) LIMIT 1   [ RunTime:0.004578s ]
+SQL: INSERT INTO `ik_param` (`paramname`,`itemid`) VALUES ('日本',2) [ RunTime:0.007653s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_param_exp` WHERE ( `paramid` = 3 ) LIMIT 1   [ RunTime:0.003795s ]
+SQL: INSERT INTO `ik_param_exp` (`expid`,`paramid`) VALUES (1,3) [ RunTime:0.009970s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003595s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003775s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/8ae0ce75a6a4de9a601d8cd4fb975fd2.php 第 32 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.029088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029360s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001196s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001380s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001432s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002180s ]
+INFO: Run content_replace Behavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008680s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001935s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002088s ]
+
+[ 2013-05-07T11:46:06+08:00 ] 124.193.183.18 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002224s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.108298s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000733s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.039724s ]
+SQL: SHOW COLUMNS FROM `ik_doc` [ RunTime:0.102430s ]
+SQL: SHOW COLUMNS FROM `ik_exp` [ RunTime:0.332203s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.135794s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.094174s ]
+SQL: SHOW COLUMNS FROM `ik_param` [ RunTime:0.052128s ]
+SQL: SELECT * FROM `ik_doc` ORDER BY addtime desc LIMIT 10   [ RunTime:0.107721s ]
+SQL: SELECT * FROM `ik_cate`  [ RunTime:0.002003s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '1' )  [ RunTime:0.000745s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 1 )  [ RunTime:0.000834s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '2' )  [ RunTime:0.001153s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 2 )  [ RunTime:0.000966s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '4' )  [ RunTime:0.001149s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 3 )  [ RunTime:0.000549s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002270s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002442s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 184 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant doctitle - assumed 'doctitle' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant volume - assumed 'volume' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant doctitle - assumed 'doctitle' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant volume - assumed 'volume' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.031874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032038s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001314s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001178s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000985s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001401s ]
+INFO: Run content_replace Behavior [ RunTime:0.002018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007215s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001386s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001509s ]
+
+[ 2013-05-07T11:46:11+08:00 ] 124.193.183.18 /index.php/exp/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002441s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002688s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001746s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.016470s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000597s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.010108s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.012258s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.012092s ]
+SQL: SHOW COLUMNS FROM `ik_exp` [ RunTime:0.013818s ]
+SQL: SHOW COLUMNS FROM `ik_param` [ RunTime:0.014317s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002891s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003149s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/29603e7a119376ed35ebf1f6a7b12cd1.php 第 42 行.
+NOTIC: [8] Undefined variable: result /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/29603e7a119376ed35ebf1f6a7b12cd1.php 第 85 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.021075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021236s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001346s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001492s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001078s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001469s ]
+INFO: Run content_replace Behavior [ RunTime:0.002146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007903s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001543s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001688s ]
+
+[ 2013-05-07T11:46:14+08:00 ] 124.193.183.18 /index.php/exp/addnew
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001529s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001706s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001398s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.191880s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.001322s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.079915s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.184667s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.124237s ]
+SQL: SHOW COLUMNS FROM `ik_exp` [ RunTime:0.131513s ]
+SQL: SHOW COLUMNS FROM `ik_param` [ RunTime:0.179116s ]
+SQL: SELECT * FROM `ik_cate`  [ RunTime:0.052448s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '1' )  [ RunTime:0.001812s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '2' )  [ RunTime:0.004075s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '4' )  [ RunTime:0.000618s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001837s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001928s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/64a03e5d33636924f4b044402d0d5cc9.php 第 42 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.016858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016993s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001345s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001113s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000995s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001187s ]
+INFO: Run content_replace Behavior [ RunTime:0.001896s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006859s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001288s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001372s ]
+
+[ 2013-05-07T11:46:36+08:00 ] 124.193.183.18 /index.php/exp/addnew
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001774s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001987s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.032236s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000766s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.018630s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.029162s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.025170s ]
+SQL: SHOW COLUMNS FROM `ik_exp` [ RunTime:0.051764s ]
+SQL: SHOW COLUMNS FROM `ik_param` [ RunTime:0.051793s ]
+SQL: SELECT * FROM `ik_cate`  [ RunTime:0.011073s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '1' )  [ RunTime:0.000584s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '2' )  [ RunTime:0.000511s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '4' )  [ RunTime:0.000468s ]
+SQL: SELECT * FROM `ik_exp` WHERE ( `title` = '铁测试' ) LIMIT 1   [ RunTime:0.001003s ]
+SQL: INSERT INTO `ik_exp` (`userid`,`title`,`itemid`,`isoriginal`,`author`,`content`,`addtime`) VALUES (1,'铁测试',1,1,'小麦','弟弟',1367898396) [ RunTime:0.000554s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_param` WHERE ( `paramname` = '天天' ) LIMIT 1   [ RunTime:0.000649s ]
+SQL: INSERT INTO `ik_param` (`paramname`,`itemid`) VALUES ('天天',1) [ RunTime:0.002087s ]
+SQL: SHOW COLUMNS FROM `ik_param_exp` [ RunTime:0.017139s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_param_exp` WHERE ( `paramid` = 4 ) LIMIT 1   [ RunTime:0.013794s ]
+SQL: INSERT INTO `ik_param_exp` (`expid`,`paramid`) VALUES (2,4) [ RunTime:0.001383s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_param` WHERE ( `paramname` = '妈妈' ) LIMIT 1   [ RunTime:0.000501s ]
+SQL: INSERT INTO `ik_param` (`paramname`,`itemid`) VALUES ('妈妈',1) [ RunTime:0.000496s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_param_exp` WHERE ( `paramid` = 5 ) LIMIT 1   [ RunTime:0.000482s ]
+SQL: INSERT INTO `ik_param_exp` (`expid`,`paramid`) VALUES (2,5) [ RunTime:0.000496s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002270s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002378s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/8ae0ce75a6a4de9a601d8cd4fb975fd2.php 第 32 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.016400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016583s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001129s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001222s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000972s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001170s ]
+INFO: Run content_replace Behavior [ RunTime:0.001839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006660s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001414s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001514s ]
+
+[ 2013-05-07T11:46:38+08:00 ] 124.193.183.18 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.062371s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000732s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.057772s ]
+SQL: SHOW COLUMNS FROM `ik_doc` [ RunTime:0.029822s ]
+SQL: SHOW COLUMNS FROM `ik_exp` [ RunTime:0.044683s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.031041s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.028957s ]
+SQL: SHOW COLUMNS FROM `ik_param` [ RunTime:0.031592s ]
+SQL: SELECT * FROM `ik_doc` ORDER BY addtime desc LIMIT 10   [ RunTime:0.019187s ]
+SQL: SELECT * FROM `ik_cate`  [ RunTime:0.004061s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '1' )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 1 )  [ RunTime:0.002768s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '2' )  [ RunTime:0.005013s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 2 )  [ RunTime:0.006981s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '4' )  [ RunTime:0.006727s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 3 )  [ RunTime:0.002240s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001931s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002039s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 184 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant doctitle - assumed 'doctitle' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant volume - assumed 'volume' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant doctitle - assumed 'doctitle' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant volume - assumed 'volume' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.030890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030999s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001341s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001169s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001101s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001234s ]
+INFO: Run content_replace Behavior [ RunTime:0.001861s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007037s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001571s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001688s ]
+
+[ 2013-05-07T11:47:52+08:00 ] 124.193.183.18 /index.php/exp/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001520s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001662s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001354s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.015274s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000833s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.011781s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.017712s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.018577s ]
+SQL: SHOW COLUMNS FROM `ik_exp` [ RunTime:0.023362s ]
+SQL: SHOW COLUMNS FROM `ik_param` [ RunTime:0.016997s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002573s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002763s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/29603e7a119376ed35ebf1f6a7b12cd1.php 第 42 行.
+NOTIC: [8] Undefined variable: result /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/29603e7a119376ed35ebf1f6a7b12cd1.php 第 85 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.021579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021734s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001150s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001232s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001024s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001214s ]
+INFO: Run content_replace Behavior [ RunTime:0.001809s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006736s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001365s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001468s ]
+
+[ 2013-05-07T11:48:14+08:00 ] ERR: (ThinkException) Action:searchexp您所请求的方法不存在！
+[ 2013-05-07T11:50:14+08:00 ] ERR: (ThinkException) Action:searchexp您所请求的方法不存在！
+[ 2013-05-07T11:53:21+08:00 ] 124.193.183.18 /index.php/exp/addnew
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001590s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001723s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001728s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.013671s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000540s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.008794s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.022367s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.011438s ]
+SQL: SHOW COLUMNS FROM `ik_exp` [ RunTime:0.012724s ]
+SQL: SHOW COLUMNS FROM `ik_param` [ RunTime:0.021983s ]
+SQL: SELECT * FROM `ik_cate`  [ RunTime:0.019830s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '1' )  [ RunTime:0.000428s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '2' )  [ RunTime:0.000757s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '4' )  [ RunTime:0.001407s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002179s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002274s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/64a03e5d33636924f4b044402d0d5cc9.php 第 42 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.016995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017097s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001125s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001226s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000974s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001290s ]
+INFO: Run content_replace Behavior [ RunTime:0.001769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006677s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001362s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001446s ]
+
+[ 2013-05-07T11:53:23+08:00 ] 124.193.183.18 /index.php/exp/addnew
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001625s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001825s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.016150s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000757s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.009993s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.017016s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.012771s ]
+SQL: SHOW COLUMNS FROM `ik_exp` [ RunTime:0.031609s ]
+SQL: SHOW COLUMNS FROM `ik_param` [ RunTime:0.025451s ]
+SQL: SELECT * FROM `ik_cate`  [ RunTime:0.007683s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '1' )  [ RunTime:0.000550s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '2' )  [ RunTime:0.000342s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '4' )  [ RunTime:0.000377s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001797s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001896s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/64a03e5d33636924f4b044402d0d5cc9.php 第 42 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.017647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017758s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001135s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001068s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001017s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001152s ]
+INFO: Run content_replace Behavior [ RunTime:0.002149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006876s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001334s ]
+
+[ 2013-05-07T11:54:49+08:00 ] 124.193.183.18 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001576s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.024112s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000673s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.008380s ]
+SQL: SHOW COLUMNS FROM `ik_doc` [ RunTime:0.011343s ]
+SQL: SHOW COLUMNS FROM `ik_exp` [ RunTime:0.011708s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.011474s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.011914s ]
+SQL: SHOW COLUMNS FROM `ik_param` [ RunTime:0.012557s ]
+SQL: SELECT * FROM `ik_doc` ORDER BY addtime desc LIMIT 10   [ RunTime:0.021201s ]
+SQL: SELECT * FROM `ik_cate`  [ RunTime:0.000377s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '1' )  [ RunTime:0.000360s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 1 )  [ RunTime:0.000354s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '2' )  [ RunTime:0.000355s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 2 )  [ RunTime:0.000365s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '4' )  [ RunTime:0.000380s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 3 )  [ RunTime:0.000383s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001618s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001715s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 184 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant doctitle - assumed 'doctitle' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant volume - assumed 'volume' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant doctitle - assumed 'doctitle' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant volume - assumed 'volume' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.026175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026270s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001244s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001285s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001045s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001393s ]
+INFO: Run content_replace Behavior [ RunTime:0.001871s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007153s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001312s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001400s ]
+
+[ 2013-05-07T11:55:10+08:00 ] 124.193.183.18 /index.php/exp/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003558s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003856s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.015417s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000611s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.009394s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.012062s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.011673s ]
+SQL: SHOW COLUMNS FROM `ik_exp` [ RunTime:0.033277s ]
+SQL: SHOW COLUMNS FROM `ik_param` [ RunTime:0.033958s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002766s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002909s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/29603e7a119376ed35ebf1f6a7b12cd1.php 第 42 行.
+NOTIC: [8] Undefined variable: result /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/29603e7a119376ed35ebf1f6a7b12cd1.php 第 85 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.024077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024206s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001187s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001384s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001671s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001918s ]
+INFO: Run content_replace Behavior [ RunTime:0.002771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009320s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001536s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001655s ]
+
+[ 2013-05-07T11:55:16+08:00 ] 124.193.183.18 /index.php/search/all/type/exp
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002536s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002748s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002252s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.016101s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000786s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.010018s ]
+SQL: SHOW COLUMNS FROM `ik_doc` [ RunTime:0.015743s ]
+SQL: SHOW COLUMNS FROM `ik_exp` [ RunTime:0.013735s ]
+SQL: SELECT * FROM `ik_exp` WHERE ( `title` LIKE '%铁测试%' )  [ RunTime:0.007346s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002227s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002320s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/29603e7a119376ed35ebf1f6a7b12cd1.php 第 42 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/29603e7a119376ed35ebf1f6a7b12cd1.php 第 86 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/29603e7a119376ed35ebf1f6a7b12cd1.php 第 86 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.016777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016884s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001151s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001115s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001028s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001178s ]
+INFO: Run content_replace Behavior [ RunTime:0.001811s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006598s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001322s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001414s ]
+
+[ 2013-05-07T11:55:25+08:00 ] 124.193.183.18 /index.php/search/all/type/exp
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001814s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002013s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001573s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.018847s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000607s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.030363s ]
+SQL: SHOW COLUMNS FROM `ik_doc` [ RunTime:0.049784s ]
+SQL: SHOW COLUMNS FROM `ik_exp` [ RunTime:0.011450s ]
+SQL: SELECT * FROM `ik_exp` WHERE ( `title` LIKE '%铁%' )  [ RunTime:0.006600s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002198s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002312s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/29603e7a119376ed35ebf1f6a7b12cd1.php 第 42 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/29603e7a119376ed35ebf1f6a7b12cd1.php 第 86 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/29603e7a119376ed35ebf1f6a7b12cd1.php 第 86 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.020367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020497s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001163s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001265s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001018s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001278s ]
+INFO: Run content_replace Behavior [ RunTime:0.001967s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007016s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001469s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001572s ]
+
+[ 2013-05-07T11:55:31+08:00 ] 124.193.183.18 /index.php/search/all/type/exp
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001464s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001592s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.017456s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000547s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.007683s ]
+SQL: SHOW COLUMNS FROM `ik_doc` [ RunTime:0.010919s ]
+SQL: SHOW COLUMNS FROM `ik_exp` [ RunTime:0.008553s ]
+SQL: SELECT * FROM `ik_exp` WHERE ( `title` LIKE '%铁%' )  [ RunTime:0.004569s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001996s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002114s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/29603e7a119376ed35ebf1f6a7b12cd1.php 第 42 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/29603e7a119376ed35ebf1f6a7b12cd1.php 第 86 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/29603e7a119376ed35ebf1f6a7b12cd1.php 第 86 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.018550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018644s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001215s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001164s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001022s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001121s ]
+INFO: Run content_replace Behavior [ RunTime:0.001790s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006601s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001344s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001426s ]
+
+[ 2013-05-07T11:55:34+08:00 ] 124.193.183.18 /index.php/exp/addnew/title/%E9%93%81%E6%B5%8B%E8%AF%95
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001702s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001876s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001475s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.013885s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000520s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.008710s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.017352s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.027019s ]
+SQL: SHOW COLUMNS FROM `ik_exp` [ RunTime:0.011289s ]
+SQL: SHOW COLUMNS FROM `ik_param` [ RunTime:0.037412s ]
+SQL: SELECT * FROM `ik_cate`  [ RunTime:0.015255s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '1' )  [ RunTime:0.000371s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '2' )  [ RunTime:0.000330s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '4' )  [ RunTime:0.000317s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001789s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001896s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/64a03e5d33636924f4b044402d0d5cc9.php 第 42 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.018853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018975s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001133s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001113s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000978s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001240s ]
+INFO: Run content_replace Behavior [ RunTime:0.001814s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006592s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001349s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001448s ]
+
+[ 2013-05-07T13:22:32+08:00 ] 124.193.183.18 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.016345s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.001027s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.011737s ]
+SQL: SHOW COLUMNS FROM `ik_doc` [ RunTime:0.032106s ]
+SQL: SHOW COLUMNS FROM `ik_exp` [ RunTime:0.041082s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.033577s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.020212s ]
+SQL: SHOW COLUMNS FROM `ik_param` [ RunTime:0.018132s ]
+SQL: SELECT `userid` FROM `ik_user` WHERE ( `isenable` = 0 ) ORDER BY uptime desc LIMIT 12   [ RunTime:0.010580s ]
+SQL: SELECT * FROM `ik_user` WHERE ( `userid` = 1 ) LIMIT 1   [ RunTime:0.001314s ]
+SQL: SELECT * FROM `ik_user` WHERE ( `userid` = 2 ) LIMIT 1   [ RunTime:0.001404s ]
+SQL: SELECT * FROM `ik_exp` WHERE ( `isaudit` = 0 ) ORDER BY addtime desc LIMIT 10   [ RunTime:0.000830s ]
+SQL: SELECT * FROM `ik_doc` ORDER BY addtime desc LIMIT 10   [ RunTime:0.000647s ]
+SQL: SELECT * FROM `ik_cate`  [ RunTime:0.001908s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '1' )  [ RunTime:0.001178s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 1 )  [ RunTime:0.002102s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '2' )  [ RunTime:0.001194s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 2 )  [ RunTime:0.000706s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '4' )  [ RunTime:0.000990s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 3 )  [ RunTime:0.000781s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001599s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001692s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 184 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant doctitle - assumed 'doctitle' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant volume - assumed 'volume' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant doctitle - assumed 'doctitle' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant volume - assumed 'volume' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 305 行.
+NOTIC: [8] Use of undefined constant picfile - assumed 'picfile' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 306 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 310 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 350 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 350 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.028276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028366s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001188s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001142s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000978s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001155s ]
+INFO: Run content_replace Behavior [ RunTime:0.001870s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006620s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001255s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001339s ]
+
+[ 2013-05-07T13:31:16+08:00 ] 124.193.183.18 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.017160s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000879s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.014193s ]
+SQL: SHOW COLUMNS FROM `ik_doc` [ RunTime:0.012786s ]
+SQL: SHOW COLUMNS FROM `ik_exp` [ RunTime:0.023885s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.032122s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.012867s ]
+SQL: SHOW COLUMNS FROM `ik_param` [ RunTime:0.013364s ]
+SQL: SELECT `userid` FROM `ik_user` WHERE ( `isenable` = 0 ) ORDER BY uptime desc LIMIT 12   [ RunTime:0.006176s ]
+SQL: SELECT * FROM `ik_user` WHERE ( `userid` = 1 ) LIMIT 1   [ RunTime:0.001523s ]
+SQL: SELECT * FROM `ik_user` WHERE ( `userid` = 2 ) LIMIT 1   [ RunTime:0.000628s ]
+SQL: SELECT * FROM `ik_exp` WHERE ( `isaudit` = 0 ) ORDER BY addtime desc LIMIT 10   [ RunTime:0.000501s ]
+SQL: SELECT * FROM `ik_doc` ORDER BY addtime desc LIMIT 10   [ RunTime:0.000473s ]
+SQL: SELECT * FROM `ik_cate`  [ RunTime:0.000533s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '1' )  [ RunTime:0.000452s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 1 )  [ RunTime:0.000506s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '2' )  [ RunTime:0.000498s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 2 )  [ RunTime:0.000555s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '4' )  [ RunTime:0.000435s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 3 )  [ RunTime:0.000552s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001794s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001891s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 184 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant doctitle - assumed 'doctitle' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant volume - assumed 'volume' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant doctitle - assumed 'doctitle' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant volume - assumed 'volume' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 305 行.
+NOTIC: [8] Use of undefined constant picfile - assumed 'picfile' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 306 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 310 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 350 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 350 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.032531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032639s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001300s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001137s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001203s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001353s ]
+INFO: Run content_replace Behavior [ RunTime:0.002077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007375s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001384s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001483s ]
+
+[ 2013-05-07T13:31:20+08:00 ] 124.193.183.18 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001625s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.020273s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000634s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.013856s ]
+SQL: SHOW COLUMNS FROM `ik_doc` [ RunTime:0.033456s ]
+SQL: SHOW COLUMNS FROM `ik_exp` [ RunTime:0.018398s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.016532s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.015933s ]
+SQL: SHOW COLUMNS FROM `ik_param` [ RunTime:0.010393s ]
+SQL: SELECT `userid` FROM `ik_user` WHERE ( `isenable` = 0 ) ORDER BY uptime desc LIMIT 12   [ RunTime:0.021225s ]
+SQL: SELECT * FROM `ik_user` WHERE ( `userid` = 1 ) LIMIT 1   [ RunTime:0.000680s ]
+SQL: SELECT * FROM `ik_user` WHERE ( `userid` = 2 ) LIMIT 1   [ RunTime:0.000573s ]
+SQL: SELECT * FROM `ik_exp` WHERE ( `isaudit` = 0 ) ORDER BY addtime desc LIMIT 10   [ RunTime:0.000586s ]
+SQL: SELECT * FROM `ik_doc` ORDER BY addtime desc LIMIT 10   [ RunTime:0.000599s ]
+SQL: SELECT * FROM `ik_cate`  [ RunTime:0.000427s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '1' )  [ RunTime:0.000421s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 1 )  [ RunTime:0.000404s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '2' )  [ RunTime:0.000522s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 2 )  [ RunTime:0.000356s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '4' )  [ RunTime:0.000528s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 3 )  [ RunTime:0.000517s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001856s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001956s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 184 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant doctitle - assumed 'doctitle' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant volume - assumed 'volume' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant doctitle - assumed 'doctitle' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant volume - assumed 'volume' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 305 行.
+NOTIC: [8] Use of undefined constant picfile - assumed 'picfile' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 306 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 310 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 350 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 350 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.029184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029277s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001251s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001119s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000980s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001183s ]
+INFO: Run content_replace Behavior [ RunTime:0.001942s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006782s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001294s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001381s ]
+
+[ 2013-05-07T13:31:31+08:00 ] 124.193.183.18 /index.php/exp/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001464s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001613s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001361s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.029495s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000681s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.022156s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.038298s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.014212s ]
+SQL: SHOW COLUMNS FROM `ik_exp` [ RunTime:0.015481s ]
+SQL: SHOW COLUMNS FROM `ik_param` [ RunTime:0.014197s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001603s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001700s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/29603e7a119376ed35ebf1f6a7b12cd1.php 第 42 行.
+NOTIC: [8] Undefined variable: result /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/29603e7a119376ed35ebf1f6a7b12cd1.php 第 85 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.017399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017493s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001140s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001140s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001007s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001226s ]
+INFO: Run content_replace Behavior [ RunTime:0.001825s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006633s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001331s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001433s ]
+
+[ 2013-05-07T13:31:34+08:00 ] 124.193.183.18 /index.php/exp/addnew
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001503s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001636s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001326s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.043567s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000646s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.010838s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.014412s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.014519s ]
+SQL: SHOW COLUMNS FROM `ik_exp` [ RunTime:0.015711s ]
+SQL: SHOW COLUMNS FROM `ik_param` [ RunTime:0.015068s ]
+SQL: SELECT * FROM `ik_cate`  [ RunTime:0.006586s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '1' )  [ RunTime:0.000583s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '2' )  [ RunTime:0.000524s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '4' )  [ RunTime:0.000472s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001841s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001931s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/64a03e5d33636924f4b044402d0d5cc9.php 第 42 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.017649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017766s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001108s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001073s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001131s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001169s ]
+INFO: Run content_replace Behavior [ RunTime:0.001914s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006709s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001372s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001456s ]
+
+[ 2013-05-07T13:32:46+08:00 ] 124.193.183.18 /index.php/exp/addnew
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001681s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001880s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.014924s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000778s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.009074s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.010390s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.011951s ]
+SQL: SHOW COLUMNS FROM `ik_exp` [ RunTime:0.013155s ]
+SQL: SHOW COLUMNS FROM `ik_param` [ RunTime:0.036227s ]
+SQL: SELECT * FROM `ik_cate`  [ RunTime:0.019274s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '1' )  [ RunTime:0.000609s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '2' )  [ RunTime:0.003599s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '4' )  [ RunTime:0.008279s ]
+SQL: SELECT * FROM `ik_exp` WHERE ( `title` = '美国防部报告：中国公布钓鱼岛领海基线不恰当' ) LIMIT 1   [ RunTime:0.000933s ]
+SQL: INSERT INTO `ik_exp` (`userid`,`title`,`itemid`,`isoriginal`,`author`,`content`,`addtime`) VALUES (1,'美国防部报告：中国公布钓鱼岛领海基线不恰当',1,1,'王利军','据日本《产经新闻》5月7日报道，美国国防部当地时间6日发布了有关中国军事动向的年度报告。有关钓鱼岛问题，报告指出中国于2012年9月公布的钓鱼岛领海基线“不恰当”，并称虽然美国政府对钓鱼岛的主权问题不持特定的立场，但“中国方面的主张在法理上存在问题”。\r\n\r\n　　另外，报告再次向中方“泼脏水”，称2012年包括美国政府在内的许多电脑曾遭到外部攻击，这很可能与中国政府以及中国军方有直接的关系。报告甚至认为，中方很可能会通过这些行为收集情报，并最终应用到中国的军备上。\r\n\r\n　　关于钓鱼岛问题，中国外交部发言人多次强调，钓鱼岛及其附属岛屿自古以来就是中国的固有领土，有史为凭、有法为据。中方不会容忍任何侵害国家主权和领土完整的行径。中国驻美大使崔天凯近日明确强调，在钓鱼岛问题上，挑起紧张局势、加剧紧张局势的是日本方面，采取所谓“单方面”或者“胁迫性行动”的也是日本方面。所以在这个问题上，事实和是非都很清楚。希望其他方面不要去搬日本的这块石头，更不要让这块石头砸了自己的脚。千万不要因小失大，因为眼前一时的需要而引来长期的祸害。',1367904766) [ RunTime:0.001039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_param` WHERE ( `paramname` = '呵呵呵' ) LIMIT 1   [ RunTime:0.000739s ]
+SQL: INSERT INTO `ik_param` (`paramname`,`itemid`) VALUES ('呵呵呵',1) [ RunTime:0.001588s ]
+SQL: SHOW COLUMNS FROM `ik_param_exp` [ RunTime:0.008993s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_param_exp` WHERE ( `paramid` = 6 ) LIMIT 1   [ RunTime:0.007180s ]
+SQL: INSERT INTO `ik_param_exp` (`expid`,`paramid`) VALUES (3,6) [ RunTime:0.001285s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_param` WHERE ( `paramname` = '蓝蓝蓝' ) LIMIT 1   [ RunTime:0.001380s ]
+SQL: INSERT INTO `ik_param` (`paramname`,`itemid`) VALUES ('蓝蓝蓝',1) [ RunTime:0.005700s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_param_exp` WHERE ( `paramid` = 7 ) LIMIT 1   [ RunTime:0.005100s ]
+SQL: INSERT INTO `ik_param_exp` (`expid`,`paramid`) VALUES (3,7) [ RunTime:0.000976s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_param` WHERE ( `paramname` = '斑斑驳驳' ) LIMIT 1   [ RunTime:0.001023s ]
+SQL: INSERT INTO `ik_param` (`paramname`,`itemid`) VALUES ('斑斑驳驳',1) [ RunTime:0.001209s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_param_exp` WHERE ( `paramid` = 8 ) LIMIT 1   [ RunTime:0.001807s ]
+SQL: INSERT INTO `ik_param_exp` (`expid`,`paramid`) VALUES (3,8) [ RunTime:0.004067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_param` WHERE ( `paramname` = '后哈哈哈后' ) LIMIT 1   [ RunTime:0.000551s ]
+SQL: INSERT INTO `ik_param` (`paramname`,`itemid`) VALUES ('后哈哈哈后',1) [ RunTime:0.007647s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_param_exp` WHERE ( `paramid` = 9 ) LIMIT 1   [ RunTime:0.003613s ]
+SQL: INSERT INTO `ik_param_exp` (`expid`,`paramid`) VALUES (3,9) [ RunTime:0.000878s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002591s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002725s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/8ae0ce75a6a4de9a601d8cd4fb975fd2.php 第 32 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.017850s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018012s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001122s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001115s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001038s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001306s ]
+INFO: Run content_replace Behavior [ RunTime:0.001799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006691s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001413s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001549s ]
+
+[ 2013-05-07T13:32:53+08:00 ] 124.193.183.18 /index.php/exp/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003089s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003587s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001913s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.036285s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000606s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.009278s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.014531s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.033403s ]
+SQL: SHOW COLUMNS FROM `ik_exp` [ RunTime:0.013411s ]
+SQL: SHOW COLUMNS FROM `ik_param` [ RunTime:0.013889s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001745s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001857s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/29603e7a119376ed35ebf1f6a7b12cd1.php 第 42 行.
+NOTIC: [8] Undefined variable: result /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/29603e7a119376ed35ebf1f6a7b12cd1.php 第 85 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.022443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022596s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001263s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001233s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001015s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001250s ]
+INFO: Run content_replace Behavior [ RunTime:0.011734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016935s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001667s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001794s ]
+
+[ 2013-05-07T13:33:05+08:00 ] 124.193.183.18 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001606s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.010989s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000867s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.006945s ]
+SQL: SHOW COLUMNS FROM `ik_doc` [ RunTime:0.007836s ]
+SQL: SHOW COLUMNS FROM `ik_exp` [ RunTime:0.009171s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.007976s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.008488s ]
+SQL: SHOW COLUMNS FROM `ik_param` [ RunTime:0.020199s ]
+SQL: SELECT `userid` FROM `ik_user` WHERE ( `isenable` = 0 ) ORDER BY uptime desc LIMIT 12   [ RunTime:0.005778s ]
+SQL: SELECT * FROM `ik_user` WHERE ( `userid` = 1 ) LIMIT 1   [ RunTime:0.000485s ]
+SQL: SELECT * FROM `ik_user` WHERE ( `userid` = 2 ) LIMIT 1   [ RunTime:0.000541s ]
+SQL: SELECT * FROM `ik_exp` WHERE ( `isaudit` = 0 ) ORDER BY addtime desc LIMIT 10   [ RunTime:0.000882s ]
+SQL: SELECT * FROM `ik_doc` ORDER BY addtime desc LIMIT 10   [ RunTime:0.000856s ]
+SQL: SELECT * FROM `ik_cate`  [ RunTime:0.000467s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '1' )  [ RunTime:0.000440s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 1 )  [ RunTime:0.000619s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '2' )  [ RunTime:0.002294s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 2 )  [ RunTime:0.000651s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '4' )  [ RunTime:0.001792s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 3 )  [ RunTime:0.000641s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001737s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001862s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 184 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant doctitle - assumed 'doctitle' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant volume - assumed 'volume' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant doctitle - assumed 'doctitle' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant volume - assumed 'volume' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 305 行.
+NOTIC: [8] Use of undefined constant picfile - assumed 'picfile' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 306 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 310 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 310 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 350 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 350 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.032278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032394s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001493s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001095s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001021s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001358s ]
+INFO: Run content_replace Behavior [ RunTime:0.001952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007260s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001283s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001370s ]
+
+[ 2013-05-07T13:33:14+08:00 ] 124.193.183.18 /index.php/exp/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001444s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001570s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001456s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.012982s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000761s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.009843s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.014798s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.014828s ]
+SQL: SHOW COLUMNS FROM `ik_exp` [ RunTime:0.016067s ]
+SQL: SHOW COLUMNS FROM `ik_param` [ RunTime:0.016105s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001754s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001850s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/29603e7a119376ed35ebf1f6a7b12cd1.php 第 42 行.
+NOTIC: [8] Undefined variable: result /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/29603e7a119376ed35ebf1f6a7b12cd1.php 第 85 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.017387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017497s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001297s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001100s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001031s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001182s ]
+INFO: Run content_replace Behavior [ RunTime:0.001928s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006829s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001312s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001397s ]
+
+[ 2013-05-07T13:33:17+08:00 ] 124.193.183.18 /index.php/exp/addnew
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001848s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002065s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.027114s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000605s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.009430s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.046443s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.044453s ]
+SQL: SHOW COLUMNS FROM `ik_exp` [ RunTime:0.042569s ]
+SQL: SHOW COLUMNS FROM `ik_param` [ RunTime:0.033426s ]
+SQL: SELECT * FROM `ik_cate`  [ RunTime:0.005883s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '1' )  [ RunTime:0.000367s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '2' )  [ RunTime:0.000543s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '4' )  [ RunTime:0.000363s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003801s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003918s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/64a03e5d33636924f4b044402d0d5cc9.php 第 42 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.020853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021022s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001299s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001164s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000996s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001270s ]
+INFO: Run content_replace Behavior [ RunTime:0.002015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007115s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001471s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001613s ]
+
+[ 2013-05-07T13:34:11+08:00 ] 124.193.183.18 /index.php/exp/addnew
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001638s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001828s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001695s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.023030s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000533s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.013657s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.082677s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.068833s ]
+SQL: SHOW COLUMNS FROM `ik_exp` [ RunTime:0.021353s ]
+SQL: SHOW COLUMNS FROM `ik_param` [ RunTime:0.030192s ]
+SQL: SELECT * FROM `ik_cate`  [ RunTime:0.026884s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '1' )  [ RunTime:0.000556s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '2' )  [ RunTime:0.000385s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '4' )  [ RunTime:0.000346s ]
+SQL: SELECT * FROM `ik_exp` WHERE ( `title` = '北京出租车调价听证：起步价上涨3元 燃油费下调' ) LIMIT 1   [ RunTime:0.000728s ]
+SQL: INSERT INTO `ik_exp` (`userid`,`title`,`itemid`,`isoriginal`,`author`,`content`,`addtime`,`picfile`) VALUES (1,'北京出租车调价听证：起步价上涨3元 燃油费下调',1,1,'网络联盟','　记者从北京市发改委了解到，听证会将公布两套出租车调价方案，两套方案对于起步价的调整相同，都是由现行的10元涨到13元。\r\n\r\n　　同时，乘客乘坐出租车，里程如果超过起步价，原来要加收3元燃油附加费，现在改为对全部乘客加收1元燃油附加费。那么，这就意味着对于乘坐3公里以上的乘客，起步价相当于增加了1元，这部分的乘客占乘客总量的70%以上。\r\n\r\n　　而每公里的里程价格调整有两套方案，一个是从现在的2元提高到2.3元，另一个是提高到2.6元。',1367904851,'data/upload/exps/picfile/2013/yR8yI44oO8u0u414.jpg') [ RunTime:0.001022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_param` WHERE ( `paramname` = '美丽' ) LIMIT 1   [ RunTime:0.000638s ]
+SQL: INSERT INTO `ik_param` (`paramname`,`itemid`) VALUES ('美丽',1) [ RunTime:0.001859s ]
+SQL: SHOW COLUMNS FROM `ik_param_exp` [ RunTime:0.008447s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_param_exp` WHERE ( `paramid` = 10 ) LIMIT 1   [ RunTime:0.007472s ]
+SQL: INSERT INTO `ik_param_exp` (`expid`,`paramid`) VALUES (4,10) [ RunTime:0.005695s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_param` WHERE ( `paramname` = '哈哈' ) LIMIT 1   [ RunTime:0.000722s ]
+SQL: INSERT INTO `ik_param` (`paramname`,`itemid`) VALUES ('哈哈',1) [ RunTime:0.004740s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_param_exp` WHERE ( `paramid` = 11 ) LIMIT 1   [ RunTime:0.000670s ]
+SQL: INSERT INTO `ik_param_exp` (`expid`,`paramid`) VALUES (4,11) [ RunTime:0.004440s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_param` WHERE ( `paramname` = '蓝蓝蓝' ) LIMIT 1   [ RunTime:0.001504s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `paramname` = '蓝蓝蓝' ) LIMIT 1   [ RunTime:0.002986s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_param_exp` WHERE ( `paramid` = 7 ) LIMIT 1   [ RunTime:0.001632s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_param` WHERE ( `paramname` = '方法' ) LIMIT 1   [ RunTime:0.001683s ]
+SQL: INSERT INTO `ik_param` (`paramname`,`itemid`) VALUES ('方法',1) [ RunTime:0.003570s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_param_exp` WHERE ( `paramid` = 12 ) LIMIT 1   [ RunTime:0.000726s ]
+SQL: INSERT INTO `ik_param_exp` (`expid`,`paramid`) VALUES (4,12) [ RunTime:0.005438s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002135s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002242s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/8ae0ce75a6a4de9a601d8cd4fb975fd2.php 第 32 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.016445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016569s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001112s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001158s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000986s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001164s ]
+INFO: Run content_replace Behavior [ RunTime:0.001796s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006542s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001316s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001437s ]
+
+[ 2013-05-07T13:34:14+08:00 ] 124.193.183.18 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001926s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.059246s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000756s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.008735s ]
+SQL: SHOW COLUMNS FROM `ik_doc` [ RunTime:0.030280s ]
+SQL: SHOW COLUMNS FROM `ik_exp` [ RunTime:0.026281s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.025572s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.035271s ]
+SQL: SHOW COLUMNS FROM `ik_param` [ RunTime:0.077733s ]
+SQL: SELECT `userid` FROM `ik_user` WHERE ( `isenable` = 0 ) ORDER BY uptime desc LIMIT 12   [ RunTime:0.013548s ]
+SQL: SELECT * FROM `ik_user` WHERE ( `userid` = 1 ) LIMIT 1   [ RunTime:0.000575s ]
+SQL: SELECT * FROM `ik_user` WHERE ( `userid` = 2 ) LIMIT 1   [ RunTime:0.000590s ]
+SQL: SELECT * FROM `ik_exp` WHERE ( `isaudit` = 0 ) ORDER BY addtime desc LIMIT 10   [ RunTime:0.002600s ]
+SQL: SELECT * FROM `ik_doc` ORDER BY addtime desc LIMIT 10   [ RunTime:0.001123s ]
+SQL: SELECT * FROM `ik_cate`  [ RunTime:0.000488s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '1' )  [ RunTime:0.000461s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 1 )  [ RunTime:0.000650s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '2' )  [ RunTime:0.000684s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 2 )  [ RunTime:0.000592s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '4' )  [ RunTime:0.000370s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 3 )  [ RunTime:0.000543s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001905s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002032s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 184 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant doctitle - assumed 'doctitle' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant volume - assumed 'volume' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant doctitle - assumed 'doctitle' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant volume - assumed 'volume' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 305 行.
+NOTIC: [8] Use of undefined constant picfile - assumed 'picfile' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 306 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 310 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 310 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 310 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 350 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 350 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.033097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033240s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001361s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001171s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001014s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001209s ]
+INFO: Run content_replace Behavior [ RunTime:0.002110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007196s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001361s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001451s ]
+
+[ 2013-05-07T13:36:25+08:00 ] 124.193.183.18 /index.php/exp/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001771s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001944s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001492s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.033589s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000771s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.011997s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.012009s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.012934s ]
+SQL: SHOW COLUMNS FROM `ik_exp` [ RunTime:0.015224s ]
+SQL: SHOW COLUMNS FROM `ik_param` [ RunTime:0.020200s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001666s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001776s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/29603e7a119376ed35ebf1f6a7b12cd1.php 第 42 行.
+NOTIC: [8] Undefined variable: result /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/29603e7a119376ed35ebf1f6a7b12cd1.php 第 85 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.019130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019266s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001411s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001226s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001010s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001158s ]
+INFO: Run content_replace Behavior [ RunTime:0.001890s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007074s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001363s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001462s ]
+
+[ 2013-05-07T17:34:56+08:00 ] 124.193.183.18 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.011868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011993s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.014812s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000606s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.009452s ]
+SQL: SHOW COLUMNS FROM `ik_doc` [ RunTime:0.013574s ]
+SQL: SHOW COLUMNS FROM `ik_exp` [ RunTime:0.045730s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.031581s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.020938s ]
+SQL: SHOW COLUMNS FROM `ik_param` [ RunTime:0.032865s ]
+SQL: SELECT `userid` FROM `ik_user` WHERE ( `isenable` = 0 ) ORDER BY uptime desc LIMIT 12   [ RunTime:0.001983s ]
+SQL: SELECT * FROM `ik_user` WHERE ( `userid` = 1 ) LIMIT 1   [ RunTime:0.006256s ]
+SQL: SELECT * FROM `ik_user` WHERE ( `userid` = 2 ) LIMIT 1   [ RunTime:0.005516s ]
+SQL: SELECT * FROM `ik_exp` WHERE ( `isaudit` = 0 ) ORDER BY addtime desc LIMIT 10   [ RunTime:0.000976s ]
+SQL: SELECT * FROM `ik_doc` ORDER BY addtime desc LIMIT 10   [ RunTime:0.000695s ]
+SQL: SELECT * FROM `ik_cate`  [ RunTime:0.000618s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '1' )  [ RunTime:0.000435s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 1 )  [ RunTime:0.001412s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '2' )  [ RunTime:0.004340s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 2 )  [ RunTime:0.000972s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '4' )  [ RunTime:0.000581s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 3 )  [ RunTime:0.000485s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.009441s ]
+INFO: [ view_template ] --END-- [ RunTime:0.009534s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant doctitle - assumed 'doctitle' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant volume - assumed 'volume' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant doctitle - assumed 'doctitle' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant volume - assumed 'volume' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 305 行.
+NOTIC: [8] Use of undefined constant picfile - assumed 'picfile' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 306 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 310 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 310 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 310 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 350 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 350 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.107608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107742s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.008803s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002469s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001593s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001783s ]
+INFO: Run content_replace Behavior [ RunTime:0.013337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028321s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002797s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002880s ]
+
+[ 2013-05-07T17:35:01+08:00 ] 124.193.183.18 /index.php/doc/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.011597s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011748s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001282s ]
+NOTIC: [2048] Declaration of docAction::show() should be compatible with that of Action::show() /var/www/vhosts/mgdatabase.com/httpdocs/app/Lib/Action/home/docAction.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.023677s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000798s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.013640s ]
+SQL: SHOW COLUMNS FROM `ik_doc` [ RunTime:0.020179s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001868s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001995s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: result /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/1839313cba7db182fc872c9743e0e2b7.php 第 85 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.048173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048300s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001085s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001072s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000939s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001133s ]
+INFO: Run content_replace Behavior [ RunTime:0.001686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006197s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001197s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001277s ]
+
+[ 2013-05-07T17:35:07+08:00 ] 124.193.183.18 /index.php/user/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001515s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001625s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.027901s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000732s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.013629s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001480s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001570s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020955s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021043s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001148s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001008s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000950s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001126s ]
+INFO: Run content_replace Behavior [ RunTime:0.001697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006201s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001217s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001299s ]
+
+[ 2013-05-07T17:35:08+08:00 ] 124.193.183.18 /index.php/captcha/1367919307
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001370s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001478s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001344s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.163937s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.001957s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = null ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+NOTIC: [8] Undefined index: width /var/www/vhosts/mgdatabase.com/httpdocs/app/Lib/ORG/Captcha.class.php 第 28 行.
+NOTIC: [8] Undefined index: height /var/www/vhosts/mgdatabase.com/httpdocs/app/Lib/ORG/Captcha.class.php 第 29 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /var/www/vhosts/mgdatabase.com/httpdocs/app/Lib/ORG/Captcha.class.php 第 42 行.
+
+[ 2013-05-07T17:35:14+08:00 ] 124.193.183.18 /index.php/index/index/id/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001370s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001503s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.040236s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.001562s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.022536s ]
+SQL: SHOW COLUMNS FROM `ik_doc` [ RunTime:0.043881s ]
+SQL: SHOW COLUMNS FROM `ik_exp` [ RunTime:0.039119s ]
+SQL: SHOW COLUMNS FROM `ik_cate` [ RunTime:0.037885s ]
+SQL: SHOW COLUMNS FROM `ik_item` [ RunTime:0.106879s ]
+SQL: SHOW COLUMNS FROM `ik_param` [ RunTime:0.094111s ]
+SQL: SELECT `userid` FROM `ik_user` WHERE ( `isenable` = 0 ) ORDER BY uptime desc LIMIT 12   [ RunTime:0.033592s ]
+SQL: SELECT * FROM `ik_user` WHERE ( `userid` = 1 ) LIMIT 1   [ RunTime:0.025327s ]
+SQL: SELECT * FROM `ik_user` WHERE ( `userid` = 2 ) LIMIT 1   [ RunTime:0.021390s ]
+SQL: SELECT * FROM `ik_exp` WHERE ( `isaudit` = 0 ) ORDER BY addtime desc LIMIT 10   [ RunTime:0.017043s ]
+SQL: SELECT * FROM `ik_doc` ORDER BY addtime desc LIMIT 10   [ RunTime:0.003708s ]
+SQL: SELECT * FROM `ik_cate`  [ RunTime:0.016487s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '1' )  [ RunTime:0.021842s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 1 )  [ RunTime:0.008513s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '2' )  [ RunTime:0.007783s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 2 )  [ RunTime:0.016740s ]
+SQL: SELECT * FROM `ik_item` WHERE ( `cateid` = '4' )  [ RunTime:0.004142s ]
+SQL: SELECT * FROM `ik_param` WHERE ( `itemid` = 3 )  [ RunTime:0.003704s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001521s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001643s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 184 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant paramname - assumed 'paramname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant catename - assumed 'catename' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 252 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant itemname - assumed 'itemname' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 254 行.
+NOTIC: [8] Use of undefined constant params - assumed 'params' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 255 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant doctitle - assumed 'doctitle' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant volume - assumed 'volume' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant doctitle - assumed 'doctitle' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant volume - assumed 'volume' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 266 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 305 行.
+NOTIC: [8] Use of undefined constant picfile - assumed 'picfile' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 306 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 310 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 310 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 310 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 350 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/682e2dd8e7fd602bdd164c4b500dcc16.php 第 350 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.027716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027815s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001189s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001076s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000987s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001193s ]
+INFO: Run content_replace Behavior [ RunTime:0.001700s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006447s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001235s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001329s ]
+
+[ 2013-05-07T17:35:18+08:00 ] 124.193.183.18 /index.php/doc/add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001371s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001508s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+NOTIC: [2048] Declaration of docAction::show() should be compatible with that of Action::show() /var/www/vhosts/mgdatabase.com/httpdocs/app/Lib/Action/home/docAction.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.043624s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.004253s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.052006s ]
+SQL: SHOW COLUMNS FROM `ik_doc` [ RunTime:0.114314s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001730s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001824s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/1839313cba7db182fc872c9743e0e2b7.php 第 42 行.
+NOTIC: [8] Undefined variable: result /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/1839313cba7db182fc872c9743e0e2b7.php 第 85 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.015787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015874s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001027s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001040s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000950s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001082s ]
+INFO: Run content_replace Behavior [ RunTime:0.001884s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006288s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001261s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001362s ]
+
+[ 2013-05-07T17:35:24+08:00 ] 124.193.183.18 /index.php/doc/addnew
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001495s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001665s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001321s ]
+NOTIC: [2048] Declaration of docAction::show() should be compatible with that of Action::show() /var/www/vhosts/mgdatabase.com/httpdocs/app/Lib/Action/home/docAction.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.133782s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000611s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.053286s ]
+SQL: SHOW COLUMNS FROM `ik_doc` [ RunTime:0.132285s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001708s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001813s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/09a381603214941bded8e570a76c5116.php 第 42 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.025054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025166s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001069s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001041s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000939s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001168s ]
+INFO: Run content_replace Behavior [ RunTime:0.001703s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006208s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001221s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001313s ]
+
+[ 2013-05-07T17:35:42+08:00 ] 124.193.183.18 /index.php/doc/addnew
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001514s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001661s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001331s ]
+NOTIC: [2048] Declaration of docAction::show() should be compatible with that of Action::show() /var/www/vhosts/mgdatabase.com/httpdocs/app/Lib/Action/home/docAction.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.037150s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.004109s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.030901s ]
+SQL: SHOW COLUMNS FROM `ik_doc` [ RunTime:0.015538s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001635s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001737s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/09a381603214941bded8e570a76c5116.php 第 42 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.016258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016374s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001086s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001073s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000966s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001115s ]
+INFO: Run content_replace Behavior [ RunTime:0.001729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006273s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001230s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001325s ]
+
+[ 2013-05-07T17:37:24+08:00 ] 124.193.183.18 /index.php/doc/addnew
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001451s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001571s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001331s ]
+NOTIC: [2048] Declaration of docAction::show() should be compatible with that of Action::show() /var/www/vhosts/mgdatabase.com/httpdocs/app/Lib/Action/home/docAction.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.021874s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000554s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.035906s ]
+SQL: SHOW COLUMNS FROM `ik_doc` [ RunTime:0.039482s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001395s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001500s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/09a381603214941bded8e570a76c5116.php 第 42 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.015199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015287s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000960s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000985s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000863s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001105s ]
+INFO: Run content_replace Behavior [ RunTime:0.001599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005798s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001174s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001252s ]
+
+[ 2013-05-07T17:39:29+08:00 ] 124.193.183.18 /index.php/doc/addnew
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001712s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001896s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001478s ]
+NOTIC: [2048] Declaration of docAction::show() should be compatible with that of Action::show() /var/www/vhosts/mgdatabase.com/httpdocs/app/Lib/Action/home/docAction.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.016662s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.001807s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.009701s ]
+SQL: SHOW COLUMNS FROM `ik_doc` [ RunTime:0.014214s ]
+SQL: SELECT * FROM `ik_doc` WHERE ( `doctitle` = '12212' ) LIMIT 1   [ RunTime:0.021168s ]
+SQL: INSERT INTO `ik_doc` (`userid`,`title`,`volume`,`datetime`,`pagestart`,`author`,`doctitle`,`addtime`) VALUES (1,'121','121',0,'121','12','12212',1367919569) [ RunTime:0.010929s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002154s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002278s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/8ae0ce75a6a4de9a601d8cd4fb975fd2.php 第 32 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.024066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024198s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001127s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001139s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000931s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001153s ]
+INFO: Run content_replace Behavior [ RunTime:0.001874s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006545s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001253s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001348s ]
+
+[ 2013-05-07T17:39:31+08:00 ] 124.193.183.18 /index.php/doc/addnew
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002243s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002459s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+NOTIC: [2048] Declaration of docAction::show() should be compatible with that of Action::show() /var/www/vhosts/mgdatabase.com/httpdocs/app/Lib/Action/home/docAction.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.026349s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000665s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.010387s ]
+SQL: SHOW COLUMNS FROM `ik_doc` [ RunTime:0.010106s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001670s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001847s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/09a381603214941bded8e570a76c5116.php 第 42 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.016603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016716s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001043s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001050s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000942s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001155s ]
+INFO: Run content_replace Behavior [ RunTime:0.001772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006275s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001227s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001320s ]
+
+[ 2013-05-07T17:41:01+08:00 ] 124.193.183.18 /index.php/doc/addnew
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001749s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002004s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002199s ]
+NOTIC: [2048] Declaration of docAction::show() should be compatible with that of Action::show() /var/www/vhosts/mgdatabase.com/httpdocs/app/Lib/Action/home/docAction.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.013798s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000531s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.008182s ]
+SQL: SHOW COLUMNS FROM `ik_doc` [ RunTime:0.011410s ]
+SQL: SELECT * FROM `ik_doc` WHERE ( `doctitle` = '32323' ) LIMIT 1   [ RunTime:0.006527s ]
+SQL: INSERT INTO `ik_doc` (`userid`,`title`,`volume`,`datetime`,`pagestart`,`author`,`doctitle`,`addtime`) VALUES (1,'2323','2323',0,'232','323','32323',1367919661) [ RunTime:0.000779s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002080s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002208s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/8ae0ce75a6a4de9a601d8cd4fb975fd2.php 第 32 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.026223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026365s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001385s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001269s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000977s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001271s ]
+INFO: Run content_replace Behavior [ RunTime:0.001979s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007281s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001553s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001739s ]
+
+[ 2013-05-07T17:41:05+08:00 ] 124.193.183.18 /index.php/doc/addnew
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001727s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002046s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+NOTIC: [2048] Declaration of docAction::show() should be compatible with that of Action::show() /var/www/vhosts/mgdatabase.com/httpdocs/app/Lib/Action/home/docAction.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `ik_message` [ RunTime:0.037769s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ik_message`
+SQL: SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1   [ RunTime:0.000653s ]
+ERR: Table 'ikcharm_mgdatabase.ik_message' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `ik_message` WHERE ( `touserid` = '1' ) AND ( `isread` = 0 ) AND ( `isinbox` = 0 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `ik_user` [ RunTime:0.006920s ]
+SQL: SHOW COLUMNS FROM `ik_doc` [ RunTime:0.008646s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001657s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001782s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant username - assumed 'username' /var/www/vhosts/mgdatabase.com/httpdocs/data/runtime/Cache/home/09a381603214941bded8e570a76c5116.php 第 42 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.018542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018670s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001126s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001067s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000928s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001223s ]
+INFO: Run content_replace Behavior [ RunTime:0.001734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006431s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001383s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001478s ]
+
